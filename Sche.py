@@ -103,10 +103,10 @@ def entity_normalization(all_entities):
     # 先识别核心实体
     core_entity = None
     for ent in all_entities:
-        if "艾伦·麦席森·图灵" in ent["entity_name"]:
+        if "艾伦麦席森图灵" in ent["entity_name"]:
             core_entity = ent["entity_name"]
             norm_map["图灵"] = core_entity
-        if "阿隆佐·丘奇" in ent["entity_name"]:
+        if "阿隆佐丘奇" in ent["entity_name"]:
             norm_map["丘奇"] = ent["entity_name"]
 
     # 归一化处理
@@ -206,8 +206,8 @@ def extract_triples(sentence, norm_map):
 if __name__ == "__main__":
     # ====================== 输入文本（和你的作业文本完全一致） ======================
     input_text = """
-    图灵是英国著名的数学逻辑学家，被称为计算机科学之父。
-    1931年，图灵进入剑桥大学国王学院学习数学，图灵前往美国普林斯顿大学攻读博士学位，他的博士生导师是著名数学家阿隆佐·丘奇。
+    艾伦麦席森图灵是英国著名的数学逻辑学家，被称为计算机科学之父。
+    1931年，图灵进入剑桥大学国王学院学习数学，图灵前往美国普林斯顿大学攻读博士学位，他的博士生导师是著名数学家阿隆佐丘奇。
     二战期间，图灵回到英国，在布莱切利园破解了德国的恩尼格玛密码系统。
     1950年，图灵提出了图灵测试。
     1966年，美国计算机协会设立了图灵奖。

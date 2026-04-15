@@ -1,0 +1,208 @@
+{"text": "北京大学位于北京。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "B-LOC", "I-LOC", "O"]}
+{"text": "马云创建了阿里巴巴集团。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O"]}
+{"text": "乔布斯在美国创立苹果公司。", "labels": ["B-PER", "I-PER", "I-PER", "O", "B-LOC", "I-LOC", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "O"]}
+{"text": "李白是唐代诗人。", "labels": ["B-PER", "I-PER", "O", "B-TIME", "I-TIME", "O", "O", "O"]}
+{"text": "人工智能是计算机科学的分支。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O"]}
+{"text": "美国公司OpenAI研究人工智能。", "labels": ["B-LOC", "I-LOC", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "B-TECH", "I-TECH", "I-TECH", "I-TECH", "O"]}
+{"text": "谷歌位于美国。", "labels": ["B-ORG", "I-ORG", "O", "O", "B-LOC", "I-LOC", "O"]}
+{"text": "北京是中国的首都。", "labels": ["B-LOC", "I-LOC", "O", "B-LOC", "I-LOC", "O", "O", "O", "O"]}
+{"text": "腾讯总部在深圳。", "labels": ["B-ORG", "I-ORG", "O", "O", "O", "B-LOC", "I-LOC", "O"]}
+{"text": "华为发布了新手机。", "labels": ["B-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "张三毕业于清华大学。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "O"]}
+{"text": "王伟在微软工作。", "labels": ["B-PER", "I-PER", "O", "B-ORG", "I-ORG", "O", "O", "O"]}
+{"text": "谷爱凌获得冬奥会金牌。", "labels": ["B-PER", "I-PER", "I-PER", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O"]}
+{"text": "中国科学院位于北京。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "B-LOC", "I-LOC", "O"]}
+{"text": "阿里巴巴由马云创办。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "B-PER", "I-PER", "O", "O", "O"]}
+{"text": "比尔盖茨创立微软公司。", "labels": ["B-PER", "I-PER", "I-PER", "I-PER", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "O"]}
+{"text": "上海交通大学在上海。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "B-LOC", "I-LOC", "O"]}
+{"text": "复旦大学位于上海市。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "B-LOC", "I-LOC", "I-LOC", "O"]}
+{"text": "周杰伦是著名歌手。", "labels": ["B-PER", "I-PER", "I-PER", "O", "O", "O", "O", "O", "O"]}
+{"text": "刘慈欣写了三体。", "labels": ["B-PER", "I-PER", "I-PER", "O", "O", "B-WORK", "I-WORK", "O"]}
+{"text": "南京大学坐落于南京。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "B-LOC", "I-LOC", "O"]}
+{"text": "特斯拉由马斯克领导。", "labels": ["B-ORG", "I-ORG", "I-ORG", "O", "B-PER", "I-PER", "I-PER", "O", "O", "O"]}
+{"text": "英伟达总部在美国。", "labels": ["B-ORG", "I-ORG", "I-ORG", "O", "O", "O", "B-LOC", "I-LOC", "O"]}
+{"text": "OpenAI推出GPT模型。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "B-PROD", "I-PROD", "I-PROD", "O", "O", "O"]}
+{"text": "清华大学和北京大学合作。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O"]}
+{"text": "百度在北京设有办公室。", "labels": ["B-ORG", "I-ORG", "O", "B-LOC", "I-LOC", "O", "O", "O", "O", "O", "O"]}
+{"text": "亚马逊是一家科技公司。", "labels": ["B-ORG", "I-ORG", "I-ORG", "O", "O", "O", "B-FIELD", "I-FIELD", "O", "O", "O"]}
+{"text": "联合国总部位于纽约。", "labels": ["B-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-LOC", "I-LOC", "O"]}
+{"text": "牛顿提出万有引力定律。", "labels": ["B-PER", "I-PER", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "O"]}
+{"text": "爱因斯坦提出相对论。", "labels": ["B-PER", "I-PER", "I-PER", "I-PER", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "O"]}
+{"text": "2008年北京奥运会举行。", "labels": ["B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O"]}
+{"text": "图灵生于1912年6月23日。", "labels": ["B-PER", "I-PER", "O", "O", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O"]}
+{"text": "会议时间是2024年10月1日。", "labels": ["O", "O", "O", "O", "O", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O"]}
+{"text": "型号GPT-4在2023年发布。", "labels": ["O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "O", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O"]}
+{"text": "会议日期是2024年10月1日。", "labels": ["O", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O"]}
+{"text": "截止日期为2025年12月31日。", "labels": ["O", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O"]}
+{"text": "项目预算为500万元。", "labels": ["O", "O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O"]}
+{"text": "价格是99美元。", "labels": ["O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O"]}
+{"text": "涨幅达到12%。", "labels": ["O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "优秀率达到95%。", "labels": ["O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "计算机科学是一门重要学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "数学属于基础学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "红楼梦是中国古典名著。", "labels": ["B-WORK", "I-WORK", "I-WORK", "O", "B-LOC", "I-LOC", "O", "O", "O", "O", "O"]}
+{"text": "西游记作者是吴承恩。", "labels": ["B-WORK", "I-WORK", "I-WORK", "O", "O", "O", "B-PER", "I-PER", "I-PER", "O"]}
+{"text": "机器学习属于人工智能领域。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "B-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "B-FIELD", "I-FIELD", "O"]}
+{"text": "深度学习是计算机科学学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "B-SUBJECT", "I-SUBJECT", "O"]}
+{"text": "公司收入为3亿元。", "labels": ["O", "O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "O"]}
+{"text": "净利润增长了45%。", "labels": ["O", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "发布日期是2026年4月14日。", "labels": ["O", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O"]}
+{"text": "比赛将在明天上午9点开始。", "labels": ["O", "O", "O", "O", "B-DATE", "I-DATE", "O", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O"]}
+{"text": "世界杯是全球性体育赛事。", "labels": ["B-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "牛顿第一定律属于经典理论。", "labels": ["B-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "O"]}
+{"text": "新产品Mate60正式发布。", "labels": ["O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "O", "O", "O", "O", "O"]}
+{"text": "华东师范大学设有历史学专业。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O"]}
+{"text": "教育部学位委员会发布通知。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O"]}
+{"text": "全国哲学社会科学工作办公室组织评审。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O"]}
+{"text": "国家自然科学基金委员会批准项目。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "该成果获得国家科技进步二等奖。", "labels": ["O", "O", "O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O"]}
+{"text": "论文荣获省级教学成果一等奖。", "labels": ["O", "O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O"]}
+{"text": "他拿到了全国数学建模竞赛三等奖。", "labels": ["O", "O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O"]}
+{"text": "本书由人民教育出版社出版。", "labels": ["O", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O"]}
+{"text": "机械工业出版社推出新版教材。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "清华大学出版社发行该丛书。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O"]}
+{"text": "中国计算机学会青年委员会召开会议。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O"]}
+{"text": "项目通过专家委员会验收。", "labels": ["O", "O", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O"]}
+{"text": "该团队获得国家级创新创业大赛一等奖。", "labels": ["O", "O", "O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O"]}
+{"text": "教育部学位委员会发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经教育部学位委员会评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "国家自然科学基金委员会发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经国家自然科学基金委员会评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "中国计算机学会青年委员会发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经中国计算机学会青年委员会评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "机械工业出版社发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经机械工业出版社评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "清华大学出版社发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经清华大学出版社评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "人民文学出版社发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经人民文学出版社评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "中国科学院自动化研究所发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经中国科学院自动化研究所评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "北京市教育考试院发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经北京市教育考试院评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "上海人工智能实验室发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经上海人工智能实验室评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "国家电网有限公司发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经国家电网有限公司评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "腾讯云计算公司发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经腾讯云计算公司评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "阿里云智能集团发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经阿里云智能集团评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "深圳市城市规划设计研究院发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经深圳市城市规划设计研究院评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "中国医学科学院发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经中国医学科学院评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "中国农业科学院发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经中国农业科学院评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "复旦大学附属中山医院发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经复旦大学附属中山医院评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "华中科技大学同济医学院发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经华中科技大学同济医学院评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "中国航天科技集团发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经中国航天科技集团评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "国家文物局发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经国家文物局评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "国家能源局发布年度报告。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "经国家能源局评审通过。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O"]}
+{"text": "王伟撰写了三体。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-WORK", "I-WORK", "O"]}
+{"text": "李娜撰写了红楼梦。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-WORK", "I-WORK", "I-WORK", "O"]}
+{"text": "张晨撰写了西游记。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-WORK", "I-WORK", "I-WORK", "O"]}
+{"text": "刘洋撰写了百年孤独。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-WORK", "I-WORK", "I-WORK", "I-WORK", "O"]}
+{"text": "陈思撰写了人类简史。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-WORK", "I-WORK", "I-WORK", "I-WORK", "O"]}
+{"text": "周敏撰写了时间简史。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-WORK", "I-WORK", "I-WORK", "I-WORK", "O"]}
+{"text": "赵磊撰写了战争与和平。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-WORK", "I-WORK", "I-WORK", "I-WORK", "I-WORK", "O"]}
+{"text": "吴桐撰写了围城。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-WORK", "I-WORK", "O"]}
+{"text": "郑浩撰写了活着。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-WORK", "I-WORK", "O"]}
+{"text": "黄蕾撰写了平凡的世界。", "labels": ["B-PER", "I-PER", "O", "O", "O", "B-WORK", "I-WORK", "I-WORK", "I-WORK", "I-WORK", "O"]}
+{"text": "北京分会场于2026年4月14日启用。", "labels": ["B-LOC", "I-LOC", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O"]}
+{"text": "上海分会场于2025年12月31日启用。", "labels": ["B-LOC", "I-LOC", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O"]}
+{"text": "深圳分会场于2024年10月1日启用。", "labels": ["B-LOC", "I-LOC", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O"]}
+{"text": "杭州分会场于2023年7月7日启用。", "labels": ["B-LOC", "I-LOC", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O"]}
+{"text": "武汉分会场于2022年11月2日启用。", "labels": ["B-LOC", "I-LOC", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O"]}
+{"text": "南京分会场于2021年6月18日启用。", "labels": ["B-LOC", "I-LOC", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O"]}
+{"text": "成都分会场于2020年9月9日启用。", "labels": ["B-LOC", "I-LOC", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O"]}
+{"text": "西安分会场于2019年3月21日启用。", "labels": ["B-LOC", "I-LOC", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O"]}
+{"text": "广州分会场于2018年8月8日启用。", "labels": ["B-LOC", "I-LOC", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O"]}
+{"text": "苏州分会场于2017年5月20日启用。", "labels": ["B-LOC", "I-LOC", "O", "O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O"]}
+{"text": "系统在2026年4月14日上午9点完成切换。", "labels": ["O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O"]}
+{"text": "系统在2025年12月31日上午10点30分完成切换。", "labels": ["O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O"]}
+{"text": "系统在2024年10月1日下午3点完成切换。", "labels": ["O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O"]}
+{"text": "系统在2023年7月7日下午4点15分完成切换。", "labels": ["O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O"]}
+{"text": "系统在2022年11月2日晚上8点完成切换。", "labels": ["O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O"]}
+{"text": "系统在2021年6月18日凌晨1点20分完成切换。", "labels": ["O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O"]}
+{"text": "系统在2020年9月9日中午12点完成切换。", "labels": ["O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O"]}
+{"text": "系统在2019年3月21日傍晚6点完成切换。", "labels": ["O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O"]}
+{"text": "系统在2018年8月8日清晨7点完成切换。", "labels": ["O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O"]}
+{"text": "系统在2017年5月20日夜间11点完成切换。", "labels": ["O", "O", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O"]}
+{"text": "项目融资500万元，同比增长12%。", "labels": ["O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "项目融资3亿元，同比增长45%。", "labels": ["O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "项目融资2.5亿元，同比增长67.5%。", "labels": ["O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "项目融资9800万元，同比增长8.3%。", "labels": ["O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "项目融资120万美元，同比增长95%。", "labels": ["O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "项目融资75亿元，同比增长23.6%。", "labels": ["O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "项目融资6.8亿元，同比增长54.2%。", "labels": ["O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "项目融资2400万元，同比增长31%。", "labels": ["O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "项目融资15亿美元，同比增长72%。", "labels": ["O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "项目融资88万元，同比增长18.8%。", "labels": ["O", "O", "O", "O", "B-MONEY", "I-MONEY", "I-MONEY", "I-MONEY", "O", "O", "O", "O", "O", "B-PERCENT", "I-PERCENT", "I-PERCENT", "I-PERCENT", "I-PERCENT", "O"]}
+{"text": "团队在全国大学生数学建模竞赛一等奖中获奖。", "labels": ["O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O"]}
+{"text": "团队在国家科技进步二等奖中获奖。", "labels": ["O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O"]}
+{"text": "团队在中国创新创业大赛三等奖中获奖。", "labels": ["O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O"]}
+{"text": "团队在全国职业院校技能大赛特等奖中获奖。", "labels": ["O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O"]}
+{"text": "团队在世界人工智能大会中获奖。", "labels": ["O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O"]}
+{"text": "团队在中国国际进口博览会中获奖。", "labels": ["O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O"]}
+{"text": "团队在全国青少年科技创新大赛中获奖。", "labels": ["O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O"]}
+{"text": "团队在国际机器人大赛中获奖。", "labels": ["O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O"]}
+{"text": "团队在亚洲青年创新论坛中获奖。", "labels": ["O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O"]}
+{"text": "团队在全国信息安全竞赛中获奖。", "labels": ["O", "O", "O", "B-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "I-EVENT", "O", "O", "O", "O"]}
+{"text": "人工智能正在城市治理领域加速落地。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O"]}
+{"text": "知识图谱正在智慧医疗领域加速落地。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O"]}
+{"text": "深度强化学习正在绿色能源领域加速落地。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O"]}
+{"text": "联邦学习正在智能制造领域加速落地。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O"]}
+{"text": "大语言模型正在数字教育领域加速落地。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O"]}
+{"text": "计算机视觉正在自动驾驶领域加速落地。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O"]}
+{"text": "自然语言处理正在金融风控领域加速落地。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O"]}
+{"text": "多模态学习正在应急管理领域加速落地。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O"]}
+{"text": "边缘计算正在生态保护领域加速落地。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O"]}
+{"text": "区块链技术正在工业互联网领域加速落地。", "labels": ["B-TECH", "I-TECH", "I-TECH", "I-TECH", "I-TECH", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O"]}
+{"text": "研究报告基于相对论构建模型。", "labels": ["O", "O", "O", "O", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "O", "O", "O", "O", "O"]}
+{"text": "研究报告基于博弈论构建模型。", "labels": ["O", "O", "O", "O", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "O", "O", "O", "O", "O"]}
+{"text": "研究报告基于复杂网络理论构建模型。", "labels": ["O", "O", "O", "O", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "O", "O", "O", "O", "O"]}
+{"text": "研究报告基于信息论构建模型。", "labels": ["O", "O", "O", "O", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "O", "O", "O", "O", "O"]}
+{"text": "研究报告基于控制论构建模型。", "labels": ["O", "O", "O", "O", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "O", "O", "O", "O", "O"]}
+{"text": "研究报告基于系统论构建模型。", "labels": ["O", "O", "O", "O", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "O", "O", "O", "O", "O"]}
+{"text": "研究报告基于进化博弈理论构建模型。", "labels": ["O", "O", "O", "O", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "O", "O", "O", "O", "O"]}
+{"text": "研究报告基于最优控制理论构建模型。", "labels": ["O", "O", "O", "O", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "O", "O", "O", "O", "O"]}
+{"text": "研究报告基于多目标优化理论构建模型。", "labels": ["O", "O", "O", "O", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "O", "O", "O", "O", "O"]}
+{"text": "研究报告基于传播学理论构建模型。", "labels": ["O", "O", "O", "O", "O", "O", "B-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "I-THEORY", "O", "O", "O", "O", "O"]}
+{"text": "计算机科学是该学院重点建设学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "数据科学是该学院重点建设学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "统计学是该学院重点建设学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "计算语言学是该学院重点建设学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "信息安全是该学院重点建设学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "人工智能是该学院重点建设学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "运筹学是该学院重点建设学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "控制科学是该学院重点建设学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "法学是该学院重点建设学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "社会学是该学院重点建设学科。", "labels": ["B-SUBJECT", "I-SUBJECT", "I-SUBJECT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "教育部学位委员会发布产品Mate70Pro。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "O"]}
+{"text": "国家自然科学基金委员会发布产品GPT-4。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "O"]}
+{"text": "中国计算机学会青年委员会发布产品北斗三号。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "O"]}
+{"text": "机械工业出版社发布产品天问一号。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "O"]}
+{"text": "清华大学出版社发布产品九章三号。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "O"]}
+{"text": "人民文学出版社发布产品鸿蒙系统。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "O"]}
+{"text": "中国科学院自动化研究所发布产品文心一言。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "O"]}
+{"text": "北京市教育考试院发布产品通义千问。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "O"]}
+{"text": "上海人工智能实验室发布产品昆仑芯片。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "O"]}
+{"text": "国家电网有限公司发布产品超导量子芯片。", "labels": ["B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "B-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "I-PROD", "O"]}
+{"text": "王伟在教育部学位委员会的北京分部任职。", "labels": ["B-PER", "I-PER", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "B-LOC", "I-LOC", "O", "O", "O", "O", "O"]}
+{"text": "李娜在国家自然科学基金委员会的上海分部任职。", "labels": ["B-PER", "I-PER", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "B-LOC", "I-LOC", "O", "O", "O", "O", "O"]}
+{"text": "张晨在中国计算机学会青年委员会的深圳分部任职。", "labels": ["B-PER", "I-PER", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "B-LOC", "I-LOC", "O", "O", "O", "O", "O"]}
+{"text": "刘洋在机械工业出版社的杭州分部任职。", "labels": ["B-PER", "I-PER", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "B-LOC", "I-LOC", "O", "O", "O", "O", "O"]}
+{"text": "1922年，校长张继煦上任后实行男女同校，创立旁听生制度，废除学年制，采用学分制。", "labels": ["B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O", "B-PER", "I-PER", "I-PER", "O", "O", "O", "O", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD"]}
+{"text": "学校实行男女同校和学分制改革。", "labels": ["O", "O", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "B-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O"]}
+{"text": "旁听生制度提高了课程开放度。", "labels": ["B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"text": "校长张继煦推动学制改革。", "labels": ["O", "O", "B-PER", "I-PER", "I-PER", "O", "O", "B-FIELD", "I-FIELD", "O", "O", "O"]}
+{"text": "中学实行走班制与学分制相结合。", "labels": ["O", "O", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "O", "B-FIELD", "I-FIELD", "I-FIELD", "O", "O", "O", "O"]}
+{"text": "该政策鼓励男女同校办学。", "labels": ["O", "O", "O", "O", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O"]}
+{"text": "张继煦于1922年出任校长。", "labels": ["B-PER", "I-PER", "I-PER", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O", "O", "O"]}
+{"text": "这所大学采用学分制和弹性学制。", "labels": ["O", "O", "O", "O", "O", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD"]}

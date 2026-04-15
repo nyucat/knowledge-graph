@@ -38,7 +38,7 @@ CRF 使用字符级 BIO 标注训练，训练样例在：
 python src/run_pipeline.py --ner-backend crf
 ```
 
-如果你希望直接通过参数给链接（可多个）：
+直接通过参数给链接（可多个）：
 
 ```bash
 python src/run_pipeline.py --urls https://zh.wikipedia.org/wiki/图灵 https://zh.wikipedia.org/wiki/人工智能 --ner-backend crf

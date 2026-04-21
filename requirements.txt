@@ -1,5 +1,9 @@
 requests
 beautifulsoup4
+wikipedia
 sklearn-crfsuite
 joblib
 jieba
+torch
+transformers
+pytorch-crf

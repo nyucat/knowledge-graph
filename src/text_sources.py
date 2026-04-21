@@ -4,9 +4,10 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 import requests
+import wikipedia
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 
@@ -95,13 +96,6 @@ class HtmlTextExtractor:
         cleaned = re.sub(r"\s+", " ", cleaned).strip()
         return cleaned
 
-    @staticmethod
-    def _soft_normalize_fragment(text: str) -> str:
-        text = re.sub(r"\[\d+\]", "", text)
-        text = re.sub(r"\s+", " ", text)
-        return text.strip()
-
-
 class UrlTextExtractor:
     def __init__(self, timeout: int = 12) -> None:
         self.timeout = timeout
@@ -110,7 +104,44 @@ class UrlTextExtractor:
             {"User-Agent": "knowledge-graph-course-project/1.0 (educational use)"}
         )
 
+    @staticmethod
+    def _parse_wikipedia_url(url: str) -> tuple[str, str] | None:
+        parsed = urlparse(url)
+        host = (parsed.netloc or "").lower()
+        if "wikipedia.org" not in host:
+            return None
+        path_parts = [p for p in parsed.path.split("/") if p]
+        if len(path_parts) < 2 or path_parts[0] != "wiki":
+            return None
+        title = unquote(path_parts[1]).replace("_", " ").strip()
+        if not title:
+            return None
+        lang = host.split(".")[0] if "." in host else "en"
+        if not lang:
+            lang = "en"
+        return lang, title
+
+    def _fetch_with_wikipedia(self, url: str) -> TextDocument | None:
+        parsed = self._parse_wikipedia_url(url)
+        if parsed is None:
+            return None
+        lang, title = parsed
+        try:
+            wikipedia.set_lang(lang)
+            page = wikipedia.page(title=title, auto_suggest=False, preload=False)
+        except (wikipedia.exceptions.PageError, wikipedia.exceptions.DisambiguationError):
+            return None
+        except Exception:
+            return None
+        text = HtmlTextExtractor._clean_text(page.content)
+        if not text:
+            return None
+        return TextDocument(title=page.title, text=text, source_url=url)
+
     def fetch(self, url: str) -> TextDocument | None:
+        wiki_doc = self._fetch_with_wikipedia(url)
+        if wiki_doc is not None:
+            return wiki_doc
         try:
             response = self.session.get(url, timeout=self.timeout)
         except requests.RequestException:

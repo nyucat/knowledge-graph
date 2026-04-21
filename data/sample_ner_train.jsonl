@@ -206,3 +206,9 @@
 {"text": "该政策鼓励男女同校办学。", "labels": ["O", "O", "O", "O", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD", "O", "O"]}
 {"text": "张继煦于1922年出任校长。", "labels": ["B-PER", "I-PER", "I-PER", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "O", "O", "O"]}
 {"text": "这所大学采用学分制和弹性学制。", "labels": ["O", "O", "O", "O", "O", "O", "O", "B-FIELD", "I-FIELD", "I-FIELD", "O", "B-FIELD", "I-FIELD", "I-FIELD", "I-FIELD"]}
+{"text": "1928年更名国立武汉大学。", "labels": ["B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O"]}
+{"text": "该校更名为武汉大学。", "labels": ["O", "O", "O", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "O"]}
+{"text": "学校改称国立武昌大学。", "labels": ["O", "O", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O"]}
+{"text": "同年改名为国立武昌师范大学。", "labels": ["O", "O", "O", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O"]}
+{"text": "原湖北医科大学于2000年并入武汉大学。", "labels": ["O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "B-DATE", "I-DATE", "I-DATE", "I-DATE", "I-DATE", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "O"]}
+{"text": "链接文字武汉大学应整体视为实体。", "labels": ["O", "O", "O", "O", "B-ORG", "I-ORG", "I-ORG", "I-ORG", "O", "O", "O", "O", "O", "O", "O", "O"]}

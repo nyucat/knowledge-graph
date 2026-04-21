@@ -20,3 +20,108 @@
 {"text":"机器学习是人工智能的重要分支。","mentions":[{"start":0,"end":4,"label":"SUBJECT"},{"start":5,"end":9,"label":"TECH"}]}
 {"text":"该校实行学分制并完善导师制。","mentions":[{"start":4,"end":7,"label":"FIELD"},{"start":10,"end":13,"label":"FIELD"}]}
 {"text":"学校废除学年制，采用新的教学机制。","mentions":[{"start":4,"end":7,"label":"FIELD"},{"start":12,"end":16,"label":"FIELD"}]}
+{"text":"1928年更名国立武汉大学。","mentions":[{"start":7,"end":13,"label":"ORG"}]}
+{"text":"原校后更名为武汉大学。","mentions":[{"start":6,"end":10,"label":"ORG"}]}
+{"text":"2000年四校合并组建新的武汉大学。","mentions":[{"start":13,"end":17,"label":"ORG"}]}
+{"text":"武汉大学位于武汉市。","mentions":[{"start":0,"end":4,"label":"ORG"},{"start":6,"end":9,"label":"LOC"}]}
+{"text":"页面链接指向武汉大学人民医院。","mentions":[{"start":6,"end":14,"label":"ORG"}]}
+{"text":"MJ指的是迈克尔乔丹。样本01","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":10,"label":"PER"}]}
+{"text":"Michael Jordan即迈克尔乔丹。样本01","mentions":[{"start":0,"end":14,"label":"PER"},{"start":15,"end":20,"label":"PER"}]}
+{"text":"老詹指的是勒布朗詹姆斯。样本01","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":11,"label":"PER"}]}
+{"text":"C罗就是克里斯蒂亚诺罗纳尔多。样本01","mentions":[{"start":0,"end":2,"label":"PER"},{"start":4,"end":14,"label":"PER"}]}
+{"text":"武大是武汉大学的简称。样本01","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"北大是北京大学的简称。样本01","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"清华是清华大学的简称。样本01","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"中科院指的是中国科学院。样本01","mentions":[{"start":0,"end":3,"label":"ORG"},{"start":6,"end":11,"label":"ORG"}]}
+{"text":"AI通常指人工智能。样本01","mentions":[{"start":0,"end":2,"label":"TECH"},{"start":5,"end":9,"label":"TECH"}]}
+{"text":"NLP通常指自然语言处理。样本01","mentions":[{"start":0,"end":3,"label":"TECH"},{"start":6,"end":12,"label":"TECH"}]}
+{"text":"MJ指的是迈克尔乔丹。样本02","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":10,"label":"PER"}]}
+{"text":"Michael Jordan即迈克尔乔丹。样本02","mentions":[{"start":0,"end":14,"label":"PER"},{"start":15,"end":20,"label":"PER"}]}
+{"text":"老詹指的是勒布朗詹姆斯。样本02","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":11,"label":"PER"}]}
+{"text":"C罗就是克里斯蒂亚诺罗纳尔多。样本02","mentions":[{"start":0,"end":2,"label":"PER"},{"start":4,"end":14,"label":"PER"}]}
+{"text":"武大是武汉大学的简称。样本02","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"北大是北京大学的简称。样本02","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"清华是清华大学的简称。样本02","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"中科院指的是中国科学院。样本02","mentions":[{"start":0,"end":3,"label":"ORG"},{"start":6,"end":11,"label":"ORG"}]}
+{"text":"AI通常指人工智能。样本02","mentions":[{"start":0,"end":2,"label":"TECH"},{"start":5,"end":9,"label":"TECH"}]}
+{"text":"NLP通常指自然语言处理。样本02","mentions":[{"start":0,"end":3,"label":"TECH"},{"start":6,"end":12,"label":"TECH"}]}
+{"text":"MJ指的是迈克尔乔丹。样本03","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":10,"label":"PER"}]}
+{"text":"Michael Jordan即迈克尔乔丹。样本03","mentions":[{"start":0,"end":14,"label":"PER"},{"start":15,"end":20,"label":"PER"}]}
+{"text":"老詹指的是勒布朗詹姆斯。样本03","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":11,"label":"PER"}]}
+{"text":"C罗就是克里斯蒂亚诺罗纳尔多。样本03","mentions":[{"start":0,"end":2,"label":"PER"},{"start":4,"end":14,"label":"PER"}]}
+{"text":"武大是武汉大学的简称。样本03","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"北大是北京大学的简称。样本03","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"清华是清华大学的简称。样本03","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"中科院指的是中国科学院。样本03","mentions":[{"start":0,"end":3,"label":"ORG"},{"start":6,"end":11,"label":"ORG"}]}
+{"text":"AI通常指人工智能。样本03","mentions":[{"start":0,"end":2,"label":"TECH"},{"start":5,"end":9,"label":"TECH"}]}
+{"text":"NLP通常指自然语言处理。样本03","mentions":[{"start":0,"end":3,"label":"TECH"},{"start":6,"end":12,"label":"TECH"}]}
+{"text":"MJ指的是迈克尔乔丹。样本04","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":10,"label":"PER"}]}
+{"text":"Michael Jordan即迈克尔乔丹。样本04","mentions":[{"start":0,"end":14,"label":"PER"},{"start":15,"end":20,"label":"PER"}]}
+{"text":"老詹指的是勒布朗詹姆斯。样本04","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":11,"label":"PER"}]}
+{"text":"C罗就是克里斯蒂亚诺罗纳尔多。样本04","mentions":[{"start":0,"end":2,"label":"PER"},{"start":4,"end":14,"label":"PER"}]}
+{"text":"武大是武汉大学的简称。样本04","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"北大是北京大学的简称。样本04","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"清华是清华大学的简称。样本04","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"中科院指的是中国科学院。样本04","mentions":[{"start":0,"end":3,"label":"ORG"},{"start":6,"end":11,"label":"ORG"}]}
+{"text":"AI通常指人工智能。样本04","mentions":[{"start":0,"end":2,"label":"TECH"},{"start":5,"end":9,"label":"TECH"}]}
+{"text":"NLP通常指自然语言处理。样本04","mentions":[{"start":0,"end":3,"label":"TECH"},{"start":6,"end":12,"label":"TECH"}]}
+{"text":"MJ指的是迈克尔乔丹。样本05","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":10,"label":"PER"}]}
+{"text":"Michael Jordan即迈克尔乔丹。样本05","mentions":[{"start":0,"end":14,"label":"PER"},{"start":15,"end":20,"label":"PER"}]}
+{"text":"老詹指的是勒布朗詹姆斯。样本05","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":11,"label":"PER"}]}
+{"text":"C罗就是克里斯蒂亚诺罗纳尔多。样本05","mentions":[{"start":0,"end":2,"label":"PER"},{"start":4,"end":14,"label":"PER"}]}
+{"text":"武大是武汉大学的简称。样本05","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"北大是北京大学的简称。样本05","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"清华是清华大学的简称。样本05","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"中科院指的是中国科学院。样本05","mentions":[{"start":0,"end":3,"label":"ORG"},{"start":6,"end":11,"label":"ORG"}]}
+{"text":"AI通常指人工智能。样本05","mentions":[{"start":0,"end":2,"label":"TECH"},{"start":5,"end":9,"label":"TECH"}]}
+{"text":"NLP通常指自然语言处理。样本05","mentions":[{"start":0,"end":3,"label":"TECH"},{"start":6,"end":12,"label":"TECH"}]}
+{"text":"MJ指的是迈克尔乔丹。样本06","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":10,"label":"PER"}]}
+{"text":"Michael Jordan即迈克尔乔丹。样本06","mentions":[{"start":0,"end":14,"label":"PER"},{"start":15,"end":20,"label":"PER"}]}
+{"text":"老詹指的是勒布朗詹姆斯。样本06","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":11,"label":"PER"}]}
+{"text":"C罗就是克里斯蒂亚诺罗纳尔多。样本06","mentions":[{"start":0,"end":2,"label":"PER"},{"start":4,"end":14,"label":"PER"}]}
+{"text":"武大是武汉大学的简称。样本06","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"北大是北京大学的简称。样本06","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"清华是清华大学的简称。样本06","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"中科院指的是中国科学院。样本06","mentions":[{"start":0,"end":3,"label":"ORG"},{"start":6,"end":11,"label":"ORG"}]}
+{"text":"AI通常指人工智能。样本06","mentions":[{"start":0,"end":2,"label":"TECH"},{"start":5,"end":9,"label":"TECH"}]}
+{"text":"NLP通常指自然语言处理。样本06","mentions":[{"start":0,"end":3,"label":"TECH"},{"start":6,"end":12,"label":"TECH"}]}
+{"text":"MJ指的是迈克尔乔丹。样本07","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":10,"label":"PER"}]}
+{"text":"Michael Jordan即迈克尔乔丹。样本07","mentions":[{"start":0,"end":14,"label":"PER"},{"start":15,"end":20,"label":"PER"}]}
+{"text":"老詹指的是勒布朗詹姆斯。样本07","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":11,"label":"PER"}]}
+{"text":"C罗就是克里斯蒂亚诺罗纳尔多。样本07","mentions":[{"start":0,"end":2,"label":"PER"},{"start":4,"end":14,"label":"PER"}]}
+{"text":"武大是武汉大学的简称。样本07","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"北大是北京大学的简称。样本07","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"清华是清华大学的简称。样本07","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"中科院指的是中国科学院。样本07","mentions":[{"start":0,"end":3,"label":"ORG"},{"start":6,"end":11,"label":"ORG"}]}
+{"text":"AI通常指人工智能。样本07","mentions":[{"start":0,"end":2,"label":"TECH"},{"start":5,"end":9,"label":"TECH"}]}
+{"text":"NLP通常指自然语言处理。样本07","mentions":[{"start":0,"end":3,"label":"TECH"},{"start":6,"end":12,"label":"TECH"}]}
+{"text":"MJ指的是迈克尔乔丹。样本08","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":10,"label":"PER"}]}
+{"text":"Michael Jordan即迈克尔乔丹。样本08","mentions":[{"start":0,"end":14,"label":"PER"},{"start":15,"end":20,"label":"PER"}]}
+{"text":"老詹指的是勒布朗詹姆斯。样本08","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":11,"label":"PER"}]}
+{"text":"C罗就是克里斯蒂亚诺罗纳尔多。样本08","mentions":[{"start":0,"end":2,"label":"PER"},{"start":4,"end":14,"label":"PER"}]}
+{"text":"武大是武汉大学的简称。样本08","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"北大是北京大学的简称。样本08","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"清华是清华大学的简称。样本08","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"中科院指的是中国科学院。样本08","mentions":[{"start":0,"end":3,"label":"ORG"},{"start":6,"end":11,"label":"ORG"}]}
+{"text":"AI通常指人工智能。样本08","mentions":[{"start":0,"end":2,"label":"TECH"},{"start":5,"end":9,"label":"TECH"}]}
+{"text":"NLP通常指自然语言处理。样本08","mentions":[{"start":0,"end":3,"label":"TECH"},{"start":6,"end":12,"label":"TECH"}]}
+{"text":"MJ指的是迈克尔乔丹。样本09","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":10,"label":"PER"}]}
+{"text":"Michael Jordan即迈克尔乔丹。样本09","mentions":[{"start":0,"end":14,"label":"PER"},{"start":15,"end":20,"label":"PER"}]}
+{"text":"老詹指的是勒布朗詹姆斯。样本09","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":11,"label":"PER"}]}
+{"text":"C罗就是克里斯蒂亚诺罗纳尔多。样本09","mentions":[{"start":0,"end":2,"label":"PER"},{"start":4,"end":14,"label":"PER"}]}
+{"text":"武大是武汉大学的简称。样本09","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"北大是北京大学的简称。样本09","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"清华是清华大学的简称。样本09","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"中科院指的是中国科学院。样本09","mentions":[{"start":0,"end":3,"label":"ORG"},{"start":6,"end":11,"label":"ORG"}]}
+{"text":"AI通常指人工智能。样本09","mentions":[{"start":0,"end":2,"label":"TECH"},{"start":5,"end":9,"label":"TECH"}]}
+{"text":"NLP通常指自然语言处理。样本09","mentions":[{"start":0,"end":3,"label":"TECH"},{"start":6,"end":12,"label":"TECH"}]}
+{"text":"MJ指的是迈克尔乔丹。样本10","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":10,"label":"PER"}]}
+{"text":"Michael Jordan即迈克尔乔丹。样本10","mentions":[{"start":0,"end":14,"label":"PER"},{"start":15,"end":20,"label":"PER"}]}
+{"text":"老詹指的是勒布朗詹姆斯。样本10","mentions":[{"start":0,"end":2,"label":"PER"},{"start":5,"end":11,"label":"PER"}]}
+{"text":"C罗就是克里斯蒂亚诺罗纳尔多。样本10","mentions":[{"start":0,"end":2,"label":"PER"},{"start":4,"end":14,"label":"PER"}]}
+{"text":"武大是武汉大学的简称。样本10","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"北大是北京大学的简称。样本10","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"清华是清华大学的简称。样本10","mentions":[{"start":0,"end":2,"label":"ORG"},{"start":3,"end":7,"label":"ORG"}]}
+{"text":"中科院指的是中国科学院。样本10","mentions":[{"start":0,"end":3,"label":"ORG"},{"start":6,"end":11,"label":"ORG"}]}
+{"text":"AI通常指人工智能。样本10","mentions":[{"start":0,"end":2,"label":"TECH"},{"start":5,"end":9,"label":"TECH"}]}
+{"text":"NLP通常指自然语言处理。样本10","mentions":[{"start":0,"end":3,"label":"TECH"},{"start":6,"end":12,"label":"TECH"}]}

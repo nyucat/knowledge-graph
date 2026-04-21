@@ -116,6 +116,109 @@ class CRFEntityDisambiguator:
         right = text[e : min(len(text), e + 24)]
         return f"{left} {mid} {right}".strip()
 
+    @staticmethod
+    def _normalize_surface(text: str) -> str:
+        if not text:
+            return ""
+        s = text.strip().lower()
+        s = re.sub(r"[\s·•・‧∙･\-\._'\"`~!@#$%^&*()+={}\[\]|\\:;<>?,/，。！？；：、“”‘’（）【】《》]", "", s)
+        return s
+
+    @staticmethod
+    def _is_latin_surface(text: str) -> bool:
+        return bool(re.fullmatch(r"[A-Za-z][A-Za-z0-9 .'\-]{0,60}", text.strip()))
+
+    @staticmethod
+    def _acronym_of(text: str) -> str:
+        parts = re.findall(r"[A-Za-z0-9]+", text.upper())
+        if not parts:
+            return ""
+        return "".join(p[0] for p in parts if p)
+
+    def _extract_alias_pairs(self, doc_text: str) -> Dict[str, set[str]]:
+        alias_graph: Dict[str, set[str]] = defaultdict(set)
+        patterns = [
+            r"([\u4e00-\u9fff]{2,24})（([A-Za-z][A-Za-z0-9 .'\-]{1,60})）",
+            r"([A-Za-z][A-Za-z0-9 .'\-]{1,60})（([\u4e00-\u9fff]{2,24})）",
+            r"([\u4e00-\u9fff]{2,24})\(([A-Za-z][A-Za-z0-9 .'\-]{1,60})\)",
+            r"([A-Za-z][A-Za-z0-9 .'\-]{1,60})\(([\u4e00-\u9fff]{2,24})\)",
+        ]
+        for pat in patterns:
+            for m in re.finditer(pat, doc_text):
+                a = m.group(1).strip()
+                b = m.group(2).strip()
+                if len(a) < 2 or len(b) < 2:
+                    continue
+                alias_graph[a].add(b)
+                alias_graph[b].add(a)
+        return alias_graph
+
+    def _build_alias_groups(
+        self,
+        mentions: List[MentionRecord],
+        doc_text: str,
+    ) -> List[set[int]]:
+        n = len(mentions)
+        if n <= 1:
+            return [{0}] if n == 1 else []
+
+        parent = list(range(n))
+
+        def find(x: int) -> int:
+            while parent[x] != x:
+                parent[x] = parent[parent[x]]
+                x = parent[x]
+            return x
+
+        def union(a: int, b: int) -> None:
+            ra, rb = find(a), find(b)
+            if ra != rb:
+                parent[rb] = ra
+
+        alias_graph = self._extract_alias_pairs(doc_text)
+        norm_to_idx: Dict[str, List[int]] = defaultdict(list)
+        for i, m in enumerate(mentions):
+            norm_to_idx[self._normalize_surface(m.entity_text)].append(i)
+        for idxs in norm_to_idx.values():
+            for i in range(1, len(idxs)):
+                union(idxs[0], idxs[i])
+
+        for i in range(n):
+            ti = mentions[i].entity_text.strip()
+            ni = self._normalize_surface(ti)
+            if not ni:
+                continue
+            for j in range(i + 1, n):
+                tj = mentions[j].entity_text.strip()
+                nj = self._normalize_surface(tj)
+                if not nj:
+                    continue
+                if mentions[i].coarse_label and mentions[j].coarse_label:
+                    if mentions[i].coarse_label != mentions[j].coarse_label:
+                        continue
+
+                should_link = False
+                if ni == nj:
+                    should_link = True
+                elif (ti in alias_graph and tj in alias_graph[ti]) or (tj in alias_graph and ti in alias_graph[tj]):
+                    should_link = True
+                elif len(ni) >= 3 and len(nj) >= 3 and (ni in nj or nj in ni):
+                    should_link = True
+                elif self._is_latin_surface(ti) and self._is_latin_surface(tj):
+                    ai = self._acronym_of(ti)
+                    aj = self._acronym_of(tj)
+                    if ai and aj:
+                        if ai == nj.upper() or aj == ni.upper() or ai == aj:
+                            should_link = True
+
+                if should_link:
+                    union(i, j)
+
+        groups: Dict[int, set[int]] = defaultdict(set)
+        for i in range(n):
+            groups[find(i)].add(i)
+        return list(groups.values())
+
     def _train_bow_prototypes(
         self,
         samples: List[Tuple[str, List[Entity]]],
@@ -410,6 +513,16 @@ class CRFEntityDisambiguator:
 
             unary = [self._unary_log_potential(doc_text, m) for m in seq]
             seq_pred = self._decode_lbp(unary, seq)
+            # 别名组一致性：不同指称项（缩写/全称/括注别名）在同一语境下约束为同类标签。
+            alias_groups = self._build_alias_groups(seq, doc_text)
+            for grp in alias_groups:
+                if len(grp) <= 1:
+                    continue
+                vote: Counter[str] = Counter(seq_pred[idx] for idx in grp)
+                # 票数优先，其次沿用首个 mention 的预测，保证稳定。
+                best = max(vote.items(), key=lambda x: (x[1], -seq_pred.index(x[0])))[0]
+                for idx in grp:
+                    seq_pred[idx] = best
             for i, label in zip(valid_indices, seq_pred):
                 predicted[i] = label
         return predicted

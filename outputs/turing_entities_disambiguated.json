@@ -1,0 +1,1371 @@
+{
+  "canonical_entity_count": 76,
+  "mention_count": 106,
+  "canonical_entities": [
+    {
+      "canonical_name": "大英帝国官佐勋章",
+      "entity_type": "Award",
+      "variants_found": [
+        "OBE"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "氰化物",
+      "entity_type": "Chemical",
+      "variants_found": [
+        "氰化物"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "中心极限定理",
+      "entity_type": "Concept",
+      "variants_found": [
+        "中心极限定理"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "停机问题",
+      "entity_type": "Concept",
+      "variants_found": [
+        "停机问题"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "反应-扩散方程",
+      "entity_type": "Concept",
+      "variants_found": [
+        "反应-扩散公式"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "可定义数",
+      "entity_type": "Concept",
+      "variants_found": [
+        "可定义数"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "哥德尔不完全性定理",
+      "entity_type": "Concept",
+      "variants_found": [
+        "哥德尔不完全性定理"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "图灵机",
+      "entity_type": "Concept",
+      "variants_found": [
+        "图灵机"
+      ],
+      "mention_count": 3
+    },
+    {
+      "canonical_name": "图灵测试",
+      "entity_type": "Concept",
+      "variants_found": [
+        "图灵测试"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "形式主义",
+      "entity_type": "Concept",
+      "variants_found": [
+        "形式主义"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "牛顿运动定律",
+      "entity_type": "Concept",
+      "variants_found": [
+        "牛顿运动定律"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "通用图灵机",
+      "entity_type": "Concept",
+      "variants_found": [
+        "通用图灵机"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "印度",
+      "entity_type": "Country",
+      "variants_found": [
+        "印度"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "纳粹德国",
+      "entity_type": "Country",
+      "variants_found": [
+        "德国"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "英国",
+      "entity_type": "Country",
+      "variants_found": [
+        "英国"
+      ],
+      "mention_count": 6
+    },
+    {
+      "canonical_name": "数学一等荣誉学位",
+      "entity_type": "Degree",
+      "variants_found": [
+        "数学一等荣誉"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "ENIAC",
+      "entity_type": "Device",
+      "variants_found": [
+        "ENIAC"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "恩尼格玛密码机",
+      "entity_type": "Device",
+      "variants_found": [
+        "恩尼格玛密码机",
+        "恩尼格玛"
+      ],
+      "mention_count": 3
+    },
+    {
+      "canonical_name": "曼彻斯特一号",
+      "entity_type": "Device",
+      "variants_found": [
+        "曼彻斯特一号"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "机电二进制乘法器",
+      "entity_type": "Device",
+      "variants_found": [
+        "机电二进制乘法器"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "炸弹破译机",
+      "entity_type": "Device",
+      "variants_found": [
+        "炸弹"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "自动计算引擎",
+      "entity_type": "Device",
+      "variants_found": [
+        "自动计算引擎",
+        "ACE"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "花粉过敏症",
+      "entity_type": "Disease",
+      "variants_found": [
+        "花粉过敏症"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "1926年英国大罢工",
+      "entity_type": "Event",
+      "variants_found": [
+        "大罢工"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "化学阉割",
+      "entity_type": "Event",
+      "variants_found": [
+        "化学阉割",
+        "雌激素注射"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "大西洋战役",
+      "entity_type": "Event",
+      "variants_found": [
+        "大西洋战役"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "英格兰业余田径锦标赛",
+      "entity_type": "Event",
+      "variants_found": [
+        "英格兰业余田径锦标赛"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "艾伦·图灵法案",
+      "entity_type": "Law",
+      "variants_found": [
+        "《艾伦·图灵法案》"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "女王赦免令",
+      "entity_type": "Law/Event",
+      "variants_found": [
+        "赦免令"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "伦敦麦达维尔",
+      "entity_type": "Location",
+      "variants_found": [
+        "英国伦敦麦达维尔"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "南安普顿",
+      "entity_type": "Location",
+      "variants_found": [
+        "南安普顿"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "吉尔福德",
+      "entity_type": "Location",
+      "variants_found": [
+        "吉尔德"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "多塞特郡",
+      "entity_type": "Location",
+      "variants_found": [
+        "多塞特郡"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "柴郡威姆斯洛",
+      "entity_type": "Location",
+      "variants_found": [
+        "英国柴郡威姆斯洛"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "沃金火葬场",
+      "entity_type": "Location",
+      "variants_found": [
+        "沃金火葬场"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "英属印度",
+      "entity_type": "Location",
+      "variants_found": [
+        "英属印度"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "布莱切利庄园",
+      "entity_type": "Location/Organization",
+      "variants_found": [
+        "Hut 8"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "剑桥大学",
+      "entity_type": "Organization",
+      "variants_found": [
+        "剑桥"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "剑桥大学国王学院",
+      "entity_type": "Organization",
+      "variants_found": [
+        "剑桥大学国王学院",
+        "国王学院"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "圣迈克尔日间学校",
+      "entity_type": "Organization",
+      "variants_found": [
+        "圣迈克尔"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "普林斯顿大学",
+      "entity_type": "Organization",
+      "variants_found": [
+        "普林斯顿大学",
+        "普林斯顿数学系"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "曼彻斯特大学",
+      "entity_type": "Organization",
+      "variants_found": [
+        "曼彻斯特大学计算机实验室"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "波兰密码局",
+      "entity_type": "Organization",
+      "variants_found": [
+        "波兰密码局"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "洛斯阿拉莫斯国家实验室",
+      "entity_type": "Organization",
+      "variants_found": [
+        "洛斯阿拉莫斯国家实验室"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "舍伯恩学校",
+      "entity_type": "Organization",
+      "variants_found": [
+        "舍伯恩学校"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "英国军情六处",
+      "entity_type": "Organization",
+      "variants_found": [
+        "军情六处"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "英国国家物理实验室",
+      "entity_type": "Organization",
+      "variants_found": [
+        "英国国家物理实验室"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "英国政府密码和密码学校",
+      "entity_type": "Organization",
+      "variants_found": [
+        "英国政府密码和密码学校",
+        "GC&CS"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "英国皇家海军",
+      "entity_type": "Organization",
+      "variants_found": [
+        "英国皇家海军"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "亚尔·瓦尔德马·林德伯格",
+      "entity_type": "Person",
+      "variants_found": [
+        "亚尔·瓦尔德马·林德伯格"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "亨利·诺克斯",
+      "entity_type": "Person",
+      "variants_found": [
+        "亨利·诺克斯"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "伊丽莎白二世",
+      "entity_type": "Person",
+      "variants_found": [
+        "英国女王",
+        "伊丽莎白二世"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "戈登·布朗",
+      "entity_type": "Person",
+      "variants_found": [
+        "戈登·布朗"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "朱利斯·麦席森·图灵",
+      "entity_type": "Person",
+      "variants_found": [
+        "朱利斯·麦席森·图灵",
+        "Julius Mathison Turing"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "汤姆·理查兹",
+      "entity_type": "Person",
+      "variants_found": [
+        "汤姆·理查兹"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "约翰·冯·诺依曼",
+      "entity_type": "Person",
+      "variants_found": [
+        "冯·诺依曼"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "罗宾·甘迪",
+      "entity_type": "Person",
+      "variants_found": [
+        "罗宾·甘迪"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "艾伦·图灵 (Alan Turing)",
+      "entity_type": "Person",
+      "variants_found": [
+        "艾伦·麦席森·图灵",
+        "Alan Mathison Turing",
+        "阿兰·图灵",
+        "涂林",
+        "杜林"
+      ],
+      "mention_count": 5
+    },
+    {
+      "canonical_name": "艾赛儿·萨拉·斯通尼",
+      "entity_type": "Person",
+      "variants_found": [
+        "Ethel Sara Stoney"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "路德维希·维特根斯坦",
+      "entity_type": "Person",
+      "variants_found": [
+        "维特根斯坦"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "阿尔伯特·爱因斯坦",
+      "entity_type": "Person",
+      "variants_found": [
+        "爱因斯坦"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "阿隆佐·邱奇",
+      "entity_type": "Person",
+      "variants_found": [
+        "阿隆佐·邱奇"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "越野跑",
+      "entity_type": "Sport",
+      "variants_found": [
+        "越野赛跑"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "马拉松",
+      "entity_type": "Sport",
+      "variants_found": [
+        "马拉松"
+      ],
+      "mention_count": 3
+    },
+    {
+      "canonical_name": "简·伊丽莎·宝洁奖学金客座教授",
+      "entity_type": "Title",
+      "variants_found": [
+        "简·伊丽莎·宝洁奖学金客座教授"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "英国皇家学会院士",
+      "entity_type": "Title",
+      "variants_found": [
+        "英国皇家学会院士",
+        "FRS"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "《基于序数的逻辑系统》",
+      "entity_type": "Work",
+      "variants_found": [
+        "《基于序数的逻辑系统》"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "《形态发生的化学基础》",
+      "entity_type": "Work",
+      "variants_found": [
+        "《形态发生的化学基础》"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "《概率在密码学中的应用》",
+      "entity_type": "Work",
+      "variants_found": [
+        "《概率在密码学中的应用》"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "《自然》杂志",
+      "entity_type": "Work",
+      "variants_found": [
+        "《自然》"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "《艾伦·图灵选集》",
+      "entity_type": "Work",
+      "variants_found": [
+        "《艾伦·图灵选集》"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "《计算机械和智能》",
+      "entity_type": "Work",
+      "variants_found": [
+        "《计算机械和智能》"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "《论可计算数及其在判定问题上的应用》",
+      "entity_type": "Work",
+      "variants_found": [
+        "《论可计算数及其在判定问题上的应用》"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "《重复统计论文》",
+      "entity_type": "Work",
+      "variants_found": [
+        "《重复统计论文》"
+      ],
+      "mention_count": 1
+    },
+    {
+      "canonical_name": "图灵国际象棋程序",
+      "entity_type": "Work",
+      "variants_found": [
+        "国际象棋程序"
+      ],
+      "mention_count": 2
+    },
+    {
+      "canonical_name": "数学基本原理",
+      "entity_type": "Work",
+      "variants_found": [
+        "数学基本原理"
+      ],
+      "mention_count": 1
+    }
+  ],
+  "mentions_in_text_order": [
+    {
+      "canonical_name": "艾伦·图灵 (Alan Turing)",
+      "entity_type": "Person",
+      "mention": "艾伦·麦席森·图灵",
+      "start": 0,
+      "end": 9
+    },
+    {
+      "canonical_name": "艾伦·图灵 (Alan Turing)",
+      "entity_type": "Person",
+      "mention": "Alan Mathison Turing",
+      "start": 13,
+      "end": 33
+    },
+    {
+      "canonical_name": "艾伦·图灵 (Alan Turing)",
+      "entity_type": "Person",
+      "mention": "阿兰·图灵",
+      "start": 36,
+      "end": 41
+    },
+    {
+      "canonical_name": "艾伦·图灵 (Alan Turing)",
+      "entity_type": "Person",
+      "mention": "涂林",
+      "start": 53,
+      "end": 55
+    },
+    {
+      "canonical_name": "艾伦·图灵 (Alan Turing)",
+      "entity_type": "Person",
+      "mention": "杜林",
+      "start": 57,
+      "end": 59
+    },
+    {
+      "canonical_name": "伦敦麦达维尔",
+      "entity_type": "Location",
+      "mention": "英国伦敦麦达维尔",
+      "start": 74,
+      "end": 82
+    },
+    {
+      "canonical_name": "柴郡威姆斯洛",
+      "entity_type": "Location",
+      "mention": "英国柴郡威姆斯洛",
+      "start": 95,
+      "end": 103
+    },
+    {
+      "canonical_name": "英国",
+      "entity_type": "Country",
+      "mention": "英国",
+      "start": 112,
+      "end": 114
+    },
+    {
+      "canonical_name": "柴郡威姆斯洛",
+      "entity_type": "Location",
+      "mention": "英国柴郡威姆斯洛",
+      "start": 119,
+      "end": 127
+    },
+    {
+      "canonical_name": "沃金火葬场",
+      "entity_type": "Location",
+      "mention": "沃金火葬场",
+      "start": 132,
+      "end": 137
+    },
+    {
+      "canonical_name": "英国",
+      "entity_type": "Country",
+      "mention": "英国",
+      "start": 143,
+      "end": 145
+    },
+    {
+      "canonical_name": "朱利斯·麦席森·图灵",
+      "entity_type": "Person",
+      "mention": "朱利斯·麦席森·图灵",
+      "start": 200,
+      "end": 210
+    },
+    {
+      "canonical_name": "朱利斯·麦席森·图灵",
+      "entity_type": "Person",
+      "mention": "Julius Mathison Turing",
+      "start": 211,
+      "end": 233
+    },
+    {
+      "canonical_name": "英属印度",
+      "entity_type": "Location",
+      "mention": "英属印度",
+      "start": 235,
+      "end": 239
+    },
+    {
+      "canonical_name": "艾赛儿·萨拉·斯通尼",
+      "entity_type": "Person",
+      "mention": "Ethel Sara Stoney",
+      "start": 245,
+      "end": 262
+    },
+    {
+      "canonical_name": "印度",
+      "entity_type": "Country",
+      "mention": "印度",
+      "start": 263,
+      "end": 265
+    },
+    {
+      "canonical_name": "英国",
+      "entity_type": "Country",
+      "mention": "英国",
+      "start": 294,
+      "end": 296
+    },
+    {
+      "canonical_name": "印度",
+      "entity_type": "Country",
+      "mention": "印度",
+      "start": 297,
+      "end": 299
+    },
+    {
+      "canonical_name": "吉尔福德",
+      "entity_type": "Location",
+      "mention": "吉尔德",
+      "start": 311,
+      "end": 314
+    },
+    {
+      "canonical_name": "圣迈克尔日间学校",
+      "entity_type": "Organization",
+      "mention": "圣迈克尔",
+      "start": 333,
+      "end": 337
+    },
+    {
+      "canonical_name": "多塞特郡",
+      "entity_type": "Location",
+      "mention": "多塞特郡",
+      "start": 361,
+      "end": 365
+    },
+    {
+      "canonical_name": "舍伯恩学校",
+      "entity_type": "Organization",
+      "mention": "舍伯恩学校",
+      "start": 365,
+      "end": 370
+    },
+    {
+      "canonical_name": "1926年英国大罢工",
+      "entity_type": "Event",
+      "mention": "大罢工",
+      "start": 375,
+      "end": 378
+    },
+    {
+      "canonical_name": "南安普顿",
+      "entity_type": "Location",
+      "mention": "南安普顿",
+      "start": 384,
+      "end": 388
+    },
+    {
+      "canonical_name": "阿尔伯特·爱因斯坦",
+      "entity_type": "Person",
+      "mention": "爱因斯坦",
+      "start": 416,
+      "end": 420
+    },
+    {
+      "canonical_name": "牛顿运动定律",
+      "entity_type": "Concept",
+      "mention": "牛顿运动定律",
+      "start": 425,
+      "end": 431
+    },
+    {
+      "canonical_name": "剑桥大学国王学院",
+      "entity_type": "Organization",
+      "mention": "剑桥大学国王学院",
+      "start": 448,
+      "end": 456
+    },
+    {
+      "canonical_name": "数学一等荣誉学位",
+      "entity_type": "Degree",
+      "mention": "数学一等荣誉",
+      "start": 462,
+      "end": 468
+    },
+    {
+      "canonical_name": "中心极限定理",
+      "entity_type": "Concept",
+      "mention": "中心极限定理",
+      "start": 496,
+      "end": 502
+    },
+    {
+      "canonical_name": "剑桥大学国王学院",
+      "entity_type": "Organization",
+      "mention": "国王学院",
+      "start": 507,
+      "end": 511
+    },
+    {
+      "canonical_name": "亚尔·瓦尔德马·林德伯格",
+      "entity_type": "Person",
+      "mention": "亚尔·瓦尔德马·林德伯格",
+      "start": 528,
+      "end": 540
+    },
+    {
+      "canonical_name": "普林斯顿大学",
+      "entity_type": "Organization",
+      "mention": "普林斯顿大学",
+      "start": 562,
+      "end": 568
+    },
+    {
+      "canonical_name": "简·伊丽莎·宝洁奖学金客座教授",
+      "entity_type": "Title",
+      "mention": "简·伊丽莎·宝洁奖学金客座教授",
+      "start": 570,
+      "end": 585
+    },
+    {
+      "canonical_name": "机电二进制乘法器",
+      "entity_type": "Device",
+      "mention": "机电二进制乘法器",
+      "start": 594,
+      "end": 602
+    },
+    {
+      "canonical_name": "普林斯顿大学",
+      "entity_type": "Organization",
+      "mention": "普林斯顿数学系",
+      "start": 615,
+      "end": 622
+    },
+    {
+      "canonical_name": "《基于序数的逻辑系统》",
+      "entity_type": "Work",
+      "mention": "《基于序数的逻辑系统》",
+      "start": 632,
+      "end": 643
+    },
+    {
+      "canonical_name": "阿隆佐·邱奇",
+      "entity_type": "Person",
+      "mention": "阿隆佐·邱奇",
+      "start": 647,
+      "end": 653
+    },
+    {
+      "canonical_name": "约翰·冯·诺依曼",
+      "entity_type": "Person",
+      "mention": "冯·诺依曼",
+      "start": 654,
+      "end": 659
+    },
+    {
+      "canonical_name": "英国",
+      "entity_type": "Country",
+      "mention": "英国",
+      "start": 675,
+      "end": 677
+    },
+    {
+      "canonical_name": "剑桥大学",
+      "entity_type": "Organization",
+      "mention": "剑桥",
+      "start": 685,
+      "end": 687
+    },
+    {
+      "canonical_name": "路德维希·维特根斯坦",
+      "entity_type": "Person",
+      "mention": "维特根斯坦",
+      "start": 690,
+      "end": 695
+    },
+    {
+      "canonical_name": "数学基本原理",
+      "entity_type": "Work",
+      "mention": "数学基本原理",
+      "start": 697,
+      "end": 703
+    },
+    {
+      "canonical_name": "路德维希·维特根斯坦",
+      "entity_type": "Person",
+      "mention": "维特根斯坦",
+      "start": 709,
+      "end": 714
+    },
+    {
+      "canonical_name": "形式主义",
+      "entity_type": "Concept",
+      "mention": "形式主义",
+      "start": 715,
+      "end": 719
+    },
+    {
+      "canonical_name": "英国政府密码和密码学校",
+      "entity_type": "Organization",
+      "mention": "英国政府密码和密码学校",
+      "start": 740,
+      "end": 751
+    },
+    {
+      "canonical_name": "英国政府密码和密码学校",
+      "entity_type": "Organization",
+      "mention": "GC&CS",
+      "start": 752,
+      "end": 757
+    },
+    {
+      "canonical_name": "亨利·诺克斯",
+      "entity_type": "Person",
+      "mention": "亨利·诺克斯",
+      "start": 762,
+      "end": 768
+    },
+    {
+      "canonical_name": "纳粹德国",
+      "entity_type": "Country",
+      "mention": "德国",
+      "start": 772,
+      "end": 774
+    },
+    {
+      "canonical_name": "恩尼格玛密码机",
+      "entity_type": "Device",
+      "mention": "恩尼格玛密码机",
+      "start": 774,
+      "end": 781
+    },
+    {
+      "canonical_name": "波兰密码局",
+      "entity_type": "Organization",
+      "mention": "波兰密码局",
+      "start": 789,
+      "end": 794
+    },
+    {
+      "canonical_name": "恩尼格玛密码机",
+      "entity_type": "Device",
+      "mention": "恩尼格玛",
+      "start": 799,
+      "end": 803
+    },
+    {
+      "canonical_name": "炸弹破译机",
+      "entity_type": "Device",
+      "mention": "炸弹",
+      "start": 837,
+      "end": 839
+    },
+    {
+      "canonical_name": "英国皇家海军",
+      "entity_type": "Organization",
+      "mention": "英国皇家海军",
+      "start": 849,
+      "end": 855
+    },
+    {
+      "canonical_name": "英国军情六处",
+      "entity_type": "Organization",
+      "mention": "军情六处",
+      "start": 859,
+      "end": 863
+    },
+    {
+      "canonical_name": "布莱切利庄园",
+      "entity_type": "Location/Organization",
+      "mention": "Hut 8",
+      "start": 879,
+      "end": 884
+    },
+    {
+      "canonical_name": "纳粹德国",
+      "entity_type": "Country",
+      "mention": "德国",
+      "start": 889,
+      "end": 891
+    },
+    {
+      "canonical_name": "恩尼格玛密码机",
+      "entity_type": "Device",
+      "mention": "恩尼格玛",
+      "start": 902,
+      "end": 906
+    },
+    {
+      "canonical_name": "大西洋战役",
+      "entity_type": "Event",
+      "mention": "大西洋战役",
+      "start": 914,
+      "end": 919
+    },
+    {
+      "canonical_name": "《概率在密码学中的应用》",
+      "entity_type": "Work",
+      "mention": "《概率在密码学中的应用》",
+      "start": 956,
+      "end": 968
+    },
+    {
+      "canonical_name": "《重复统计论文》",
+      "entity_type": "Work",
+      "mention": "《重复统计论文》",
+      "start": 969,
+      "end": 977
+    },
+    {
+      "canonical_name": "英国国家物理实验室",
+      "entity_type": "Organization",
+      "mention": "英国国家物理实验室",
+      "start": 1008,
+      "end": 1017
+    },
+    {
+      "canonical_name": "自动计算引擎",
+      "entity_type": "Device",
+      "mention": "自动计算引擎",
+      "start": 1019,
+      "end": 1025
+    },
+    {
+      "canonical_name": "自动计算引擎",
+      "entity_type": "Device",
+      "mention": "ACE",
+      "start": 1026,
+      "end": 1029
+    },
+    {
+      "canonical_name": "曼彻斯特大学",
+      "entity_type": "Organization",
+      "mention": "曼彻斯特大学计算机实验室",
+      "start": 1039,
+      "end": 1051
+    },
+    {
+      "canonical_name": "曼彻斯特一号",
+      "entity_type": "Device",
+      "mention": "曼彻斯特一号",
+      "start": 1057,
+      "end": 1063
+    },
+    {
+      "canonical_name": "《计算机械和智能》",
+      "entity_type": "Work",
+      "mention": "《计算机械和智能》",
+      "start": 1082,
+      "end": 1091
+    },
+    {
+      "canonical_name": "图灵测试",
+      "entity_type": "Concept",
+      "mention": "图灵测试",
+      "start": 1106,
+      "end": 1110
+    },
+    {
+      "canonical_name": "图灵机",
+      "entity_type": "Concept",
+      "mention": "图灵机",
+      "start": 1114,
+      "end": 1117
+    },
+    {
+      "canonical_name": "《论可计算数及其在判定问题上的应用》",
+      "entity_type": "Work",
+      "mention": "《论可计算数及其在判定问题上的应用》",
+      "start": 1147,
+      "end": 1165
+    },
+    {
+      "canonical_name": "哥德尔不完全性定理",
+      "entity_type": "Concept",
+      "mention": "哥德尔不完全性定理",
+      "start": 1170,
+      "end": 1179
+    },
+    {
+      "canonical_name": "图灵机",
+      "entity_type": "Concept",
+      "mention": "图灵机",
+      "start": 1182,
+      "end": 1185
+    },
+    {
+      "canonical_name": "停机问题",
+      "entity_type": "Concept",
+      "mention": "停机问题",
+      "start": 1190,
+      "end": 1194
+    },
+    {
+      "canonical_name": "通用图灵机",
+      "entity_type": "Concept",
+      "mention": "通用图灵机",
+      "start": 1202,
+      "end": 1207
+    },
+    {
+      "canonical_name": "可定义数",
+      "entity_type": "Concept",
+      "mention": "可定义数",
+      "start": 1208,
+      "end": 1212
+    },
+    {
+      "canonical_name": "图灵国际象棋程序",
+      "entity_type": "Work",
+      "mention": "国际象棋程序",
+      "start": 1222,
+      "end": 1228
+    },
+    {
+      "canonical_name": "洛斯阿拉莫斯国家实验室",
+      "entity_type": "Organization",
+      "mention": "洛斯阿拉莫斯国家实验室",
+      "start": 1263,
+      "end": 1274
+    },
+    {
+      "canonical_name": "ENIAC",
+      "entity_type": "Device",
+      "mention": "ENIAC",
+      "start": 1280,
+      "end": 1285
+    },
+    {
+      "canonical_name": "图灵国际象棋程序",
+      "entity_type": "Work",
+      "mention": "国际象棋程序",
+      "start": 1292,
+      "end": 1298
+    },
+    {
+      "canonical_name": "《形态发生的化学基础》",
+      "entity_type": "Work",
+      "mention": "《形态发生的化学基础》",
+      "start": 1325,
+      "end": 1336
+    },
+    {
+      "canonical_name": "反应-扩散方程",
+      "entity_type": "Concept",
+      "mention": "反应-扩散公式",
+      "start": 1339,
+      "end": 1346
+    },
+    {
+      "canonical_name": "《艾伦·图灵选集》",
+      "entity_type": "Work",
+      "mention": "《艾伦·图灵选集》",
+      "start": 1367,
+      "end": 1376
+    },
+    {
+      "canonical_name": "《自然》杂志",
+      "entity_type": "Work",
+      "mention": "《自然》",
+      "start": 1395,
+      "end": 1399
+    },
+    {
+      "canonical_name": "花粉过敏症",
+      "entity_type": "Disease",
+      "mention": "花粉过敏症",
+      "start": 1428,
+      "end": 1433
+    },
+    {
+      "canonical_name": "英国",
+      "entity_type": "Country",
+      "mention": "英国",
+      "start": 1458,
+      "end": 1460
+    },
+    {
+      "canonical_name": "化学阉割",
+      "entity_type": "Event",
+      "mention": "化学阉割",
+      "start": 1498,
+      "end": 1502
+    },
+    {
+      "canonical_name": "化学阉割",
+      "entity_type": "Event",
+      "mention": "雌激素注射",
+      "start": 1515,
+      "end": 1520
+    },
+    {
+      "canonical_name": "氰化物",
+      "entity_type": "Chemical",
+      "mention": "氰化物",
+      "start": 1560,
+      "end": 1563
+    },
+    {
+      "canonical_name": "英国",
+      "entity_type": "Country",
+      "mention": "英国",
+      "start": 1610,
+      "end": 1612
+    },
+    {
+      "canonical_name": "戈登·布朗",
+      "entity_type": "Person",
+      "mention": "戈登·布朗",
+      "start": 1614,
+      "end": 1619
+    },
+    {
+      "canonical_name": "伊丽莎白二世",
+      "entity_type": "Person",
+      "mention": "英国女王",
+      "start": 1663,
+      "end": 1667
+    },
+    {
+      "canonical_name": "伊丽莎白二世",
+      "entity_type": "Person",
+      "mention": "伊丽莎白二世",
+      "start": 1667,
+      "end": 1673
+    },
+    {
+      "canonical_name": "女王赦免令",
+      "entity_type": "Law/Event",
+      "mention": "赦免令",
+      "start": 1675,
+      "end": 1678
+    },
+    {
+      "canonical_name": "艾伦·图灵法案",
+      "entity_type": "Law",
+      "mention": "《艾伦·图灵法案》",
+      "start": 1742,
+      "end": 1751
+    },
+    {
+      "canonical_name": "马拉松",
+      "entity_type": "Sport",
+      "mention": "马拉松",
+      "start": 1791,
+      "end": 1794
+    },
+    {
+      "canonical_name": "马拉松",
+      "entity_type": "Sport",
+      "mention": "马拉松",
+      "start": 1832,
+      "end": 1835
+    },
+    {
+      "canonical_name": "英格兰业余田径锦标赛",
+      "entity_type": "Event",
+      "mention": "英格兰业余田径锦标赛",
+      "start": 1851,
+      "end": 1861
+    },
+    {
+      "canonical_name": "马拉松",
+      "entity_type": "Sport",
+      "mention": "马拉松",
+      "start": 1861,
+      "end": 1864
+    },
+    {
+      "canonical_name": "越野跑",
+      "entity_type": "Sport",
+      "mention": "越野赛跑",
+      "start": 1874,
+      "end": 1878
+    },
+    {
+      "canonical_name": "汤姆·理查兹",
+      "entity_type": "Person",
+      "mention": "汤姆·理查兹",
+      "start": 1890,
+      "end": 1896
+    },
+    {
+      "canonical_name": "图灵机",
+      "entity_type": "Concept",
+      "mention": "图灵机",
+      "start": 1909,
+      "end": 1912
+    },
+    {
+      "canonical_name": "图灵测试",
+      "entity_type": "Concept",
+      "mention": "图灵测试",
+      "start": 1913,
+      "end": 1917
+    },
+    {
+      "canonical_name": "大英帝国官佐勋章",
+      "entity_type": "Award",
+      "mention": "OBE",
+      "start": 1938,
+      "end": 1941
+    },
+    {
+      "canonical_name": "英国皇家学会院士",
+      "entity_type": "Title",
+      "mention": "英国皇家学会院士",
+      "start": 1946,
+      "end": 1954
+    },
+    {
+      "canonical_name": "英国皇家学会院士",
+      "entity_type": "Title",
+      "mention": "FRS",
+      "start": 1955,
+      "end": 1958
+    },
+    {
+      "canonical_name": "阿隆佐·邱奇",
+      "entity_type": "Person",
+      "mention": "阿隆佐·邱奇",
+      "start": 1965,
+      "end": 1971
+    },
+    {
+      "canonical_name": "罗宾·甘迪",
+      "entity_type": "Person",
+      "mention": "罗宾·甘迪",
+      "start": 1976,
+      "end": 1981
+    }
+  ]
+}

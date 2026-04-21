@@ -1,0 +1,281 @@
+﻿// 创建节点
+
+// ---- 人物 (Person) ----
+CREATE (:Person {name: '亨利·诺克斯'});
+CREATE (:Person {name: '伊丽莎白二世'});
+CREATE (:Person {name: '戈登·布朗'});
+CREATE (:Person {name: '朱利斯·麦席森·图灵'});
+CREATE (:Person {name: '罗宾·甘迪'});
+CREATE (:Person {name: '艾赛儿·萨拉·斯通尼'});
+CREATE (:Person {name: '阿尔伯特·爱因斯坦'});
+
+// ---- 地点 (Location) ----
+CREATE (:Location {name: '伦敦麦达维尔'});
+CREATE (:Location {name: '柴郡威姆斯洛'});
+CREATE (:Location {name: '沃金火葬场'});
+
+// ---- 组织 (Organization) ----
+CREATE (:Organization {name: '剑桥大学国王学院'});
+CREATE (:Organization {name: '波兰密码局'});
+CREATE (:Organization {name: '洛斯阿拉莫斯国家实验室'});
+CREATE (:Organization {name: '英国国家物理实验室'});
+CREATE (:Organization {name: '英国政府密码和密码学校'});
+CREATE (:Organization {name: '英国皇家海军'});
+
+// ---- 作品 (Work) ----
+CREATE (:Work {name: '图灵国际象棋程序'});
+
+// ---- 概念 (Concept) ----
+CREATE (:Concept {name: '停机问题'});
+CREATE (:Concept {name: '反应-扩散方程'});
+CREATE (:Concept {name: '可定义数'});
+CREATE (:Concept {name: '哥德尔不完全性定理'});
+CREATE (:Concept {name: '图灵机'});
+CREATE (:Concept {name: '图灵测试'});
+CREATE (:Concept {name: '牛顿运动定律'});
+CREATE (:Concept {name: '通用图灵机'});
+
+// ---- 设备 (Device) ----
+CREATE (:Device {name: 'ENIAC'});
+CREATE (:Device {name: '恩尼格玛密码机'});
+CREATE (:Device {name: '炸弹破译机'});
+CREATE (:Device {name: '自动计算引擎'});
+
+// ---- 事件 (Event) ----
+CREATE (:Event {name: '化学阉割'});
+CREATE (:Event {name: '大西洋战役'});
+CREATE (:Event {name: '女王赦免令'});
+CREATE (:Event {name: '艾伦·图灵法案'});
+
+// ---- 奖项/头衔 (Award) ----
+CREATE (:Award {name: '大英帝国官佐勋章'});
+CREATE (:Award {name: '英国皇家学会院士'});
+
+// ---- 国家 (Country) ----
+CREATE (:Country {name: '英国'});
+
+// ---- 疾病 (Disease) ----
+CREATE (:Disease {name: '花粉过敏症'});
+
+// ---- 物质 (Substance) ----
+CREATE (:Substance {name: '氰化物'});
+
+// ---- 数值 (Numeric) ----
+CREATE (:Numeric {value: '11分钟'});
+CREATE (:Numeric {value: '2小时46分03秒'});
+CREATE (:Numeric {value: '41岁'});
+CREATE (:Numeric {value: '布莱切利庄园 Hut 8 小组'});
+CREATE (:Numeric {value: '约49,000名'});
+
+// ---- 年份 (Year) ----
+CREATE (:Year {value: '1947年'});
+CREATE (:Year {value: '1948年'});
+CREATE (:Year {value: '1952年'});
+CREATE (:Year {value: '2012年'});
+
+// ---- 日期 (Date) ----
+CREATE (:Date {value: '1912年6月23日'});
+CREATE (:Date {value: '1954年6月7日'});
+CREATE (:Date {value: '2017年1月31日'});
+
+// ---- 实体 (Entity) ----
+CREATE (:Entity {name: '《形态发生的化学基础'});
+CREATE (:Entity {name: '《概率在密码学中的应用'});
+CREATE (:Entity {name: '《艾伦·图灵法案'});
+CREATE (:Entity {name: '《艾伦·图灵选集'});
+CREATE (:Entity {name: '《计算机械和智能'});
+CREATE (:Entity {name: '《论可计算数及其在判定问题上的应用'});
+CREATE (:Entity {name: '《重复统计论文'});
+CREATE (:Entity {name: '军情六处'});
+CREATE (:Entity {name: '同性恋'});
+CREATE (:Entity {name: '密码分析学家'});
+CREATE (:Entity {name: '德国海军'});
+CREATE (:Entity {name: '意外'});
+CREATE (:Entity {name: '手动计时'});
+CREATE (:Entity {name: '数学家'});
+CREATE (:Entity {name: '明显的猥亵和性骚扰行为'});
+CREATE (:Entity {name: '曼彻斯特大学计算机实验室'});
+CREATE (:Entity {name: '杜林'});
+CREATE (:Entity {name: '洛斯阿拉莫斯象棋'});
+CREATE (:Entity {name: '涂林'});
+CREATE (:Entity {name: '理论生物学家'});
+CREATE (:Entity {name: '自杀'});
+CREATE (:Entity {name: '艾伦·图灵'});
+CREATE (:Entity {name: '英国政府'});
+CREATE (:Entity {name: '计算机科学与人工智能之父'});
+CREATE (:Entity {name: '计算机科学家'});
+CREATE (:Entity {name: '赦免令'});
+CREATE (:Entity {name: '逻辑学家'});
+CREATE (:Entity {name: '长跑'});
+CREATE (:Entity {name: '阿兰·图灵'});
+
+// 创建关系
+
+MATCH
+  (a1:Award {name: '大英帝国官佐勋章'}),
+  (a2:Award {name: '英国皇家学会院士'}),
+  (c1:Concept {name: '停机问题'}),
+  (c2:Concept {name: '反应-扩散方程'}),
+  (c3:Concept {name: '可定义数'}),
+  (c4:Concept {name: '哥德尔不完全性定理'}),
+  (c5:Concept {name: '图灵机'}),
+  (c6:Concept {name: '图灵测试'}),
+  (c7:Concept {name: '牛顿运动定律'}),
+  (c8:Concept {name: '通用图灵机'}),
+  (co1:Country {name: '英国'}),
+  (d1:Device {name: 'ENIAC'}),
+  (d2:Device {name: '恩尼格玛密码机'}),
+  (d3:Device {name: '炸弹破译机'}),
+  (d4:Device {name: '自动计算引擎'}),
+  (di1:Disease {name: '花粉过敏症'}),
+  (dt1:Date {value: '1912年6月23日'}),
+  (dt2:Date {value: '1954年6月7日'}),
+  (dt3:Date {value: '2017年1月31日'}),
+  (e1:Event {name: '化学阉割'}),
+  (e2:Event {name: '大西洋战役'}),
+  (e3:Event {name: '女王赦免令'}),
+  (e4:Event {name: '艾伦·图灵法案'}),
+  (l1:Location {name: '伦敦麦达维尔'}),
+  (l2:Location {name: '柴郡威姆斯洛'}),
+  (l3:Location {name: '沃金火葬场'}),
+  (n1:Numeric {value: '11分钟'}),
+  (n2:Numeric {value: '2小时46分03秒'}),
+  (n3:Numeric {value: '41岁'}),
+  (n4:Numeric {value: '布莱切利庄园 Hut 8 小组'}),
+  (n5:Numeric {value: '约49,000名'}),
+  (o1:Organization {name: '剑桥大学国王学院'}),
+  (o2:Organization {name: '波兰密码局'}),
+  (o3:Organization {name: '洛斯阿拉莫斯国家实验室'}),
+  (o4:Organization {name: '英国国家物理实验室'}),
+  (o5:Organization {name: '英国政府密码和密码学校'}),
+  (o6:Organization {name: '英国皇家海军'}),
+  (p1:Person {name: '亨利·诺克斯'}),
+  (p2:Person {name: '伊丽莎白二世'}),
+  (p3:Person {name: '戈登·布朗'}),
+  (p4:Person {name: '朱利斯·麦席森·图灵'}),
+  (p5:Person {name: '罗宾·甘迪'}),
+  (p6:Person {name: '艾赛儿·萨拉·斯通尼'}),
+  (p7:Person {name: '阿尔伯特·爱因斯坦'}),
+  (sb1:Substance {name: '氰化物'}),
+  (w1:Work {name: '图灵国际象棋程序'}),
+  (x1:Entity {name: '《形态发生的化学基础'}),
+  (x10:Entity {name: '密码分析学家'}),
+  (x11:Entity {name: '德国海军'}),
+  (x12:Entity {name: '意外'}),
+  (x13:Entity {name: '手动计时'}),
+  (x14:Entity {name: '数学家'}),
+  (x15:Entity {name: '明显的猥亵和性骚扰行为'}),
+  (x16:Entity {name: '曼彻斯特大学计算机实验室'}),
+  (x17:Entity {name: '杜林'}),
+  (x18:Entity {name: '洛斯阿拉莫斯象棋'}),
+  (x19:Entity {name: '涂林'}),
+  (x2:Entity {name: '《概率在密码学中的应用'}),
+  (x20:Entity {name: '理论生物学家'}),
+  (x21:Entity {name: '自杀'}),
+  (x22:Entity {name: '艾伦·图灵'}),
+  (x23:Entity {name: '英国政府'}),
+  (x24:Entity {name: '计算机科学与人工智能之父'}),
+  (x25:Entity {name: '计算机科学家'}),
+  (x26:Entity {name: '赦免令'}),
+  (x27:Entity {name: '逻辑学家'}),
+  (x28:Entity {name: '长跑'}),
+  (x29:Entity {name: '阿兰·图灵'}),
+  (x3:Entity {name: '《艾伦·图灵法案'}),
+  (x4:Entity {name: '《艾伦·图灵选集'}),
+  (x5:Entity {name: '《计算机械和智能'}),
+  (x6:Entity {name: '《论可计算数及其在判定问题上的应用'}),
+  (x7:Entity {name: '《重复统计论文'}),
+  (x8:Entity {name: '军情六处'}),
+  (x9:Entity {name: '同性恋'}),
+  (y1:Year {value: '1947年'}),
+  (y2:Year {value: '1948年'}),
+  (y3:Year {value: '1952年'}),
+  (y4:Year {value: '2012年'})
+
+CREATE
+  (x22)-[:`出生日期`]->(dt1),
+  (x22)-[:`出生地点`]->(l1),
+  (x22)-[:`逝世日期`]->(dt2),
+  (x22)-[:`逝世地点`]->(l2),
+  (x22)-[:`父亲`]->(p4),
+  (x22)-[:`母亲`]->(p6),
+  (p7)-[:`提出`]->(c7),
+  (x22)-[:`入读学校`]->(o1),
+  (x22)-[:`工作机构`]->(o5),
+  (x22)-[:`同事`]->(p1),
+  (x22)-[:`分析对象`]->(d2),
+  (x22)-[:`分析对象`]->(d3),
+  (x22)-[:`设计`]->(d3),
+  (x22)-[:`设计`]->(d2),
+  (x22)-[:`参与开发`]->(d3),
+  (o2)-[:`参与开发`]->(d2),
+  (o2)-[:`参与开发`]->(d3),
+  (x22)-[:`发表作品`]->(x2),
+  (x22)-[:`发表作品`]->(x7),
+  (x22)-[:`负责项目`]->(d4),
+  (x22)-[:`发表作品`]->(x5),
+  (x5)-[:`提出`]->(c6),
+  (x22)-[:`提出`]->(c6),
+  (x22)-[:`发表作品`]->(x6),
+  (x22)-[:`提出`]->(c8),
+  (x22)-[:`提出`]->(c1),
+  (x22)-[:`提出`]->(c3),
+  (x22)-[:`提出`]->(c5),
+  (x6)-[:`提出`]->(c5),
+  (x6)-[:`应用`]->(c4),
+  (x6)-[:`应用`]->(c5),
+  (c4)-[:`应用`]->(c5),
+  (x22)-[:`逝世日期`]->(y3),
+  (x22)-[:`发表作品`]->(x1),
+  (x1)-[:`应用`]->(c2),
+  (x22)-[:`发表作品`]->(x4),
+  (x22)-[:`患疾病`]->(di1),
+  (x22)-[:`死因`]->(sb1),
+  (e3)-[:`赦免对象`]->(x22),
+  (p2)-[:`赦免对象`]->(x22),
+  (e4)-[:`生效日期`]->(dt3),
+  (e4)-[:`赦免对象`]->(x22),
+  (x22)-[:`马拉松最好成绩`]->(n2),
+  (x22)-[:`马拉松最好成绩`]->(n1),
+  (x22)-[:`马拉松最好成绩`]->(y2),
+  (x22)-[:`又名`]->(x29),
+  (x22)-[:`又名`]->(x19),
+  (x22)-[:`又名`]->(x17),
+  (x22)-[:`享年`]->(n3),
+  (x22)-[:`国籍`]->(co1),
+  (x22)-[:`居住地`]->(l2),
+  (x22)-[:`骨灰撒在`]->(l3),
+  (x22)-[:`职业`]->(x25),
+  (x22)-[:`职业`]->(x14),
+  (x22)-[:`职业`]->(x27),
+  (x22)-[:`职业`]->(x10),
+  (x22)-[:`职业`]->(x20),
+  (x22)-[:`荣誉称号`]->(x24),
+  (x22)-[:`性取向`]->(x9),
+  (x22)-[:`运动项目`]->(x28),
+  (n2)-[:`计时方式`]->(x13),
+  (n2)-[:`年份`]->(y1),
+  (x22)-[:`工作机构`]->(o4),
+  (x22)-[:`工作机构`]->(x16),
+  (x2)-[:`解密年份`]->(y4),
+  (x7)-[:`解密年份`]->(y4),
+  (x22)-[:`参与战役`]->(e2),
+  (x22)-[:`隶属机构`]->(n4),
+  (n4)-[:`负责对象`]->(x11),
+  (x22)-[:`受雇于`]->(o6),
+  (x22)-[:`受监督于`]->(x8),
+  (o2)-[:`提供情报`]->(d2),
+  (x22)-[:`编写程序`]->(w1),
+  (o3)-[:`开发`]->(x18),
+  (x18)-[:`运行平台`]->(d1),
+  (x22)-[:`被控罪名`]->(x15),
+  (x22)-[:`刑罚`]->(e1),
+  (x22)-[:`死因争议`]->(x21),
+  (x22)-[:`死因争议`]->(x12),
+  (p3)-[:`代表`]->(x23),
+  (p3)-[:`道歉对象`]->(x22),
+  (p2)-[:`颁布`]->(x26),
+  (x3)-[:`赦免人数`]->(n5),
+  (x22)-[:`获得荣誉`]->(a1),
+  (x22)-[:`获得荣誉`]->(a2),
+  (x22)-[:`博士学生`]->(p5);

@@ -1,0 +1,865 @@
+{
+  "triple_count": 86,
+  "triples": [
+    {
+      "head": "艾伦·图灵",
+      "relation": "出生日期",
+      "tail": "1912年6月23日",
+      "head_mention": "杜林",
+      "tail_mention": "1912年6月23日",
+      "trigger": "出生",
+      "rule": "birth_date_main",
+      "evidence_sentence": "艾伦·麦席森·图灵（英语：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻译成涂林或者杜林），1912年6月23日出生于英国伦敦麦达维尔，1954年6月7日逝世于英国柴郡威姆斯洛，享年41岁。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "出生地点",
+      "tail": "伦敦麦达维尔",
+      "head_mention": "杜林",
+      "tail_mention": "英国伦敦麦达维尔",
+      "trigger": "出生",
+      "rule": "birth_place_main",
+      "evidence_sentence": "艾伦·麦席森·图灵（英语：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻译成涂林或者杜林），1912年6月23日出生于英国伦敦麦达维尔，1954年6月7日逝世于英国柴郡威姆斯洛，享年41岁。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "逝世日期",
+      "tail": "1954年6月7日",
+      "head_mention": "杜林",
+      "tail_mention": "1954年6月7日",
+      "trigger": "逝世",
+      "rule": "death_date_main",
+      "evidence_sentence": "艾伦·麦席森·图灵（英语：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻译成涂林或者杜林），1912年6月23日出生于英国伦敦麦达维尔，1954年6月7日逝世于英国柴郡威姆斯洛，享年41岁。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "逝世地点",
+      "tail": "柴郡威姆斯洛",
+      "head_mention": "杜林",
+      "tail_mention": "英国柴郡威姆斯洛",
+      "trigger": "逝世",
+      "rule": "death_place_main",
+      "evidence_sentence": "艾伦·麦席森·图灵（英语：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻译成涂林或者杜林），1912年6月23日出生于英国伦敦麦达维尔，1954年6月7日逝世于英国柴郡威姆斯洛，享年41岁。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "父亲",
+      "tail": "朱利斯·麦席森·图灵",
+      "head_mention": "图灵",
+      "tail_mention": "朱利斯·麦席森·图灵",
+      "trigger": "父亲",
+      "rule": "father",
+      "evidence_sentence": "图灵的父亲朱利斯·麦席森·图灵（Julius Mathison Turing）是英属印度公务员，母亲Ethel Sara Stoney在印度怀孕后返回伦敦生下艾伦。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "母亲",
+      "tail": "艾赛儿·萨拉·斯通尼",
+      "head_mention": "图灵",
+      "tail_mention": "Ethel Sara Stoney",
+      "trigger": "母亲",
+      "rule": "mother",
+      "evidence_sentence": "图灵的父亲朱利斯·麦席森·图灵（Julius Mathison Turing）是英属印度公务员，母亲Ethel Sara Stoney在印度怀孕后返回伦敦生下艾伦。"
+    },
+    {
+      "head": "阿尔伯特·爱因斯坦",
+      "relation": "提出",
+      "tail": "牛顿运动定律",
+      "head_mention": "爱因斯坦",
+      "tail_mention": "牛顿运动定律",
+      "trigger": "提出",
+      "rule": "work_concept",
+      "evidence_sentence": "1928年，十六岁时已能阅读并理解爱因斯坦著作，并对牛顿运动定律提出质疑。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "入读学校",
+      "tail": "剑桥大学国王学院",
+      "head_mention": "图灵",
+      "tail_mention": "剑桥大学国王学院",
+      "trigger": "进入",
+      "rule": "education_org",
+      "evidence_sentence": "1931年，图灵进入剑桥大学国王学院攻读本科，获数学一等荣誉。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "工作机构",
+      "tail": "英国政府密码和密码学校",
+      "head_mention": "图灵",
+      "tail_mention": "GC&CS",
+      "trigger": "兼职",
+      "rule": "work_org",
+      "evidence_sentence": "1938年9月起，图灵在英国政府密码和密码学校（GC&CS）兼职，与亨利·诺克斯合作分析德国恩尼格玛密码机。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "同事",
+      "tail": "亨利·诺克斯",
+      "head_mention": "图灵",
+      "tail_mention": "亨利·诺克斯",
+      "trigger": "合作",
+      "rule": "colleague",
+      "evidence_sentence": "1938年9月起，图灵在英国政府密码和密码学校（GC&CS）兼职，与亨利·诺克斯合作分析德国恩尼格玛密码机。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "分析对象",
+      "tail": "恩尼格玛密码机",
+      "head_mention": "图灵",
+      "tail_mention": "恩尼格玛密码机",
+      "trigger": "分析",
+      "rule": "object_analysis",
+      "evidence_sentence": "1938年9月起，图灵在英国政府密码和密码学校（GC&CS）兼职，与亨利·诺克斯合作分析德国恩尼格玛密码机。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "分析对象",
+      "tail": "炸弹破译机",
+      "head_mention": "图灵",
+      "tail_mention": "炸弹",
+      "trigger": "破解",
+      "rule": "object_analysis",
+      "evidence_sentence": "1939年7月波兰密码局向英美提供恩尼格玛情报后，图灵与诺克斯开发更广泛的破解方法，并设计改进版机电破译机器“炸弹”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "设计",
+      "tail": "炸弹破译机",
+      "head_mention": "图灵",
+      "tail_mention": "炸弹",
+      "trigger": "设计",
+      "rule": "design_device",
+      "evidence_sentence": "1939年7月波兰密码局向英美提供恩尼格玛情报后，图灵与诺克斯开发更广泛的破解方法，并设计改进版机电破译机器“炸弹”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "设计",
+      "tail": "恩尼格玛密码机",
+      "head_mention": "图灵",
+      "tail_mention": "恩尼格玛",
+      "trigger": "设计",
+      "rule": "design_device",
+      "evidence_sentence": "1939年7月波兰密码局向英美提供恩尼格玛情报后，图灵与诺克斯开发更广泛的破解方法，并设计改进版机电破译机器“炸弹”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "参与开发",
+      "tail": "炸弹破译机",
+      "head_mention": "图灵",
+      "tail_mention": "炸弹",
+      "trigger": "开发",
+      "rule": "participate_development",
+      "evidence_sentence": "1939年7月波兰密码局向英美提供恩尼格玛情报后，图灵与诺克斯开发更广泛的破解方法，并设计改进版机电破译机器“炸弹”。"
+    },
+    {
+      "head": "波兰密码局",
+      "relation": "参与开发",
+      "tail": "恩尼格玛密码机",
+      "head_mention": "波兰密码局",
+      "tail_mention": "恩尼格玛",
+      "trigger": "开发",
+      "rule": "participate_development",
+      "evidence_sentence": "1939年7月波兰密码局向英美提供恩尼格玛情报后，图灵与诺克斯开发更广泛的破解方法，并设计改进版机电破译机器“炸弹”。"
+    },
+    {
+      "head": "波兰密码局",
+      "relation": "参与开发",
+      "tail": "炸弹破译机",
+      "head_mention": "波兰密码局",
+      "tail_mention": "炸弹",
+      "trigger": "开发",
+      "rule": "participate_development",
+      "evidence_sentence": "1939年7月波兰密码局向英美提供恩尼格玛情报后，图灵与诺克斯开发更广泛的破解方法，并设计改进版机电破译机器“炸弹”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "发表作品",
+      "tail": "《概率在密码学中的应用",
+      "head_mention": "图灵",
+      "tail_mention": "《概率在密码学中的应用》",
+      "trigger": "撰写",
+      "rule": "write_work",
+      "evidence_sentence": "图灵运用统计技术优化密码破译试验过程，撰写论文《概率在密码学中的应用》和《重复统计论文》，直至2012年才解密公开。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "发表作品",
+      "tail": "《重复统计论文",
+      "head_mention": "图灵",
+      "tail_mention": "《重复统计论文》",
+      "trigger": "撰写",
+      "rule": "write_work",
+      "evidence_sentence": "图灵运用统计技术优化密码破译试验过程，撰写论文《概率在密码学中的应用》和《重复统计论文》，直至2012年才解密公开。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "负责项目",
+      "tail": "自动计算引擎",
+      "head_mention": "图灵",
+      "tail_mention": "自动计算引擎",
+      "trigger": "负责",
+      "rule": "project_responsibility",
+      "evidence_sentence": "1945年至1948年，图灵在英国国家物理实验室负责自动计算引擎（ACE）研究。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "发表作品",
+      "tail": "《计算机械和智能",
+      "head_mention": "图灵",
+      "tail_mention": "《计算机械和智能》",
+      "trigger": "发表",
+      "rule": "write_work",
+      "evidence_sentence": "在此期间，图灵发表论文《计算机械和智能》，提出判定机器是否具有智能的“图灵测试”方法。"
+    },
+    {
+      "head": "《计算机械和智能",
+      "relation": "提出",
+      "tail": "图灵测试",
+      "head_mention": "《计算机械和智能》",
+      "tail_mention": "图灵测试",
+      "trigger": "提出",
+      "rule": "work_concept",
+      "evidence_sentence": "在此期间，图灵发表论文《计算机械和智能》，提出判定机器是否具有智能的“图灵测试”方法。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "提出",
+      "tail": "图灵测试",
+      "head_mention": "图灵",
+      "tail_mention": "图灵测试",
+      "trigger": "提出",
+      "rule": "work_concept",
+      "evidence_sentence": "在此期间，图灵发表论文《计算机械和智能》，提出判定机器是否具有智能的“图灵测试”方法。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "发表作品",
+      "tail": "《论可计算数及其在判定问题上的应用",
+      "head_mention": "图灵",
+      "tail_mention": "《论可计算数及其在判定问题上的应用》",
+      "trigger": "发表",
+      "rule": "write_work",
+      "evidence_sentence": "1936年发表重要论文《论可计算数及其在判定问题上的应用》，重新论述哥德尔不完全性定理，引入图灵机概念，证明停机问题不可判定，并提出通用图灵机和可定义数概念。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "提出",
+      "tail": "通用图灵机",
+      "head_mention": "图灵",
+      "tail_mention": "通用图灵机",
+      "trigger": "提出",
+      "rule": "work_concept",
+      "evidence_sentence": "1936年发表重要论文《论可计算数及其在判定问题上的应用》，重新论述哥德尔不完全性定理，引入图灵机概念，证明停机问题不可判定，并提出通用图灵机和可定义数概念。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "提出",
+      "tail": "停机问题",
+      "head_mention": "图灵",
+      "tail_mention": "停机问题",
+      "trigger": "提出",
+      "rule": "work_concept",
+      "evidence_sentence": "1936年发表重要论文《论可计算数及其在判定问题上的应用》，重新论述哥德尔不完全性定理，引入图灵机概念，证明停机问题不可判定，并提出通用图灵机和可定义数概念。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "提出",
+      "tail": "可定义数",
+      "head_mention": "图灵",
+      "tail_mention": "可定义数",
+      "trigger": "提出",
+      "rule": "work_concept",
+      "evidence_sentence": "1936年发表重要论文《论可计算数及其在判定问题上的应用》，重新论述哥德尔不完全性定理，引入图灵机概念，证明停机问题不可判定，并提出通用图灵机和可定义数概念。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "提出",
+      "tail": "图灵机",
+      "head_mention": "图灵",
+      "tail_mention": "图灵机",
+      "trigger": "提出",
+      "rule": "work_concept",
+      "evidence_sentence": "1936年发表重要论文《论可计算数及其在判定问题上的应用》，重新论述哥德尔不完全性定理，引入图灵机概念，证明停机问题不可判定，并提出通用图灵机和可定义数概念。"
+    },
+    {
+      "head": "《论可计算数及其在判定问题上的应用",
+      "relation": "提出",
+      "tail": "图灵机",
+      "head_mention": "《论可计算数及其在判定问题上的应用》",
+      "tail_mention": "图灵机",
+      "trigger": "引入",
+      "rule": "work_concept",
+      "evidence_sentence": "1936年发表重要论文《论可计算数及其在判定问题上的应用》，重新论述哥德尔不完全性定理，引入图灵机概念，证明停机问题不可判定，并提出通用图灵机和可定义数概念。"
+    },
+    {
+      "head": "《论可计算数及其在判定问题上的应用",
+      "relation": "应用",
+      "tail": "哥德尔不完全性定理",
+      "head_mention": "《论可计算数及其在判定问题上的应用》",
+      "tail_mention": "哥德尔不完全性定理",
+      "trigger": "应用",
+      "rule": "work_apply",
+      "evidence_sentence": "1936年发表重要论文《论可计算数及其在判定问题上的应用》，重新论述哥德尔不完全性定理，引入图灵机概念，证明停机问题不可判定，并提出通用图灵机和可定义数概念。"
+    },
+    {
+      "head": "《论可计算数及其在判定问题上的应用",
+      "relation": "应用",
+      "tail": "图灵机",
+      "head_mention": "《论可计算数及其在判定问题上的应用》",
+      "tail_mention": "图灵机",
+      "trigger": "应用",
+      "rule": "work_apply",
+      "evidence_sentence": "1936年发表重要论文《论可计算数及其在判定问题上的应用》，重新论述哥德尔不完全性定理，引入图灵机概念，证明停机问题不可判定，并提出通用图灵机和可定义数概念。"
+    },
+    {
+      "head": "哥德尔不完全性定理",
+      "relation": "应用",
+      "tail": "图灵机",
+      "head_mention": "哥德尔不完全性定理",
+      "tail_mention": "图灵机",
+      "trigger": "应用",
+      "rule": "work_apply",
+      "evidence_sentence": "1936年发表重要论文《论可计算数及其在判定问题上的应用》，重新论述哥德尔不完全性定理，引入图灵机概念，证明停机问题不可判定，并提出通用图灵机和可定义数概念。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "逝世日期",
+      "tail": "1952年",
+      "head_mention": "图灵",
+      "tail_mention": "1952年",
+      "trigger": "去世",
+      "rule": "death_date_main",
+      "evidence_sentence": "1952年至去世，图灵从事生物数学研究，发表论文《形态发生的化学基础》，应用反应-扩散公式解释图案形成与斐波那契叶序现象。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "发表作品",
+      "tail": "《形态发生的化学基础",
+      "head_mention": "图灵",
+      "tail_mention": "《形态发生的化学基础》",
+      "trigger": "发表",
+      "rule": "write_work",
+      "evidence_sentence": "1952年至去世，图灵从事生物数学研究，发表论文《形态发生的化学基础》，应用反应-扩散公式解释图案形成与斐波那契叶序现象。"
+    },
+    {
+      "head": "《形态发生的化学基础",
+      "relation": "应用",
+      "tail": "反应-扩散方程",
+      "head_mention": "《形态发生的化学基础》",
+      "tail_mention": "反应-扩散公式",
+      "trigger": "应用",
+      "rule": "work_apply",
+      "evidence_sentence": "1952年至去世，图灵从事生物数学研究，发表论文《形态发生的化学基础》，应用反应-扩散公式解释图案形成与斐波那契叶序现象。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "发表作品",
+      "tail": "《艾伦·图灵选集",
+      "head_mention": "图灵",
+      "tail_mention": "《艾伦·图灵选集》",
+      "trigger": "发表",
+      "rule": "write_work",
+      "evidence_sentence": "1992年《艾伦·图灵选集》出版，收录其未发表后期论文。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "患疾病",
+      "tail": "花粉过敏症",
+      "head_mention": "图灵",
+      "tail_mention": "花粉过敏症",
+      "trigger": "患有",
+      "rule": "health",
+      "evidence_sentence": "图灵是男同性恋者，患有花粉过敏症。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "死因",
+      "tail": "氰化物",
+      "head_mention": "图灵",
+      "tail_mention": "氰化物",
+      "trigger": "因",
+      "rule": "death_cause",
+      "evidence_sentence": "1954年6月7日，图灵因食用沾有氰化物的苹果死亡。"
+    },
+    {
+      "head": "女王赦免令",
+      "relation": "赦免对象",
+      "tail": "艾伦·图灵",
+      "head_mention": "赦免令",
+      "tail_mention": "图灵",
+      "trigger": "赦免",
+      "rule": "law_pardon",
+      "evidence_sentence": "2013年12月24日，英国女王伊丽莎白二世颁布赦免令，赦免图灵1952年定罪。"
+    },
+    {
+      "head": "伊丽莎白二世",
+      "relation": "赦免对象",
+      "tail": "艾伦·图灵",
+      "head_mention": "伊丽莎白二世",
+      "tail_mention": "图灵",
+      "trigger": "赦免",
+      "rule": "law_pardon",
+      "evidence_sentence": "2013年12月24日，英国女王伊丽莎白二世颁布赦免令，赦免图灵1952年定罪。"
+    },
+    {
+      "head": "艾伦·图灵法案",
+      "relation": "生效日期",
+      "tail": "2017年1月31日",
+      "head_mention": "《艾伦·图灵法案》",
+      "tail_mention": "2017年1月31日",
+      "trigger": "生效",
+      "rule": "law_effective",
+      "evidence_sentence": "2017年1月31日，《艾伦·图灵法案》生效，约49,000名因同性恋被定罪者获得赦免。"
+    },
+    {
+      "head": "艾伦·图灵法案",
+      "relation": "赦免对象",
+      "tail": "艾伦·图灵",
+      "head_mention": "《艾伦·图灵法案》",
+      "tail_mention": "图灵",
+      "trigger": "赦免",
+      "rule": "law_pardon",
+      "evidence_sentence": "2017年1月31日，《艾伦·图灵法案》生效，约49,000名因同性恋被定罪者获得赦免。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "马拉松最好成绩",
+      "tail": "2小时46分03秒",
+      "head_mention": "图灵",
+      "tail_mention": "2小时46分03秒",
+      "trigger": "成绩",
+      "rule": "score_time",
+      "evidence_sentence": "图灵还是一名优秀长跑运动员，马拉松个人最好成绩为2小时46分03秒（手动计时，1947年），比1948年奥运会马拉松金牌成绩慢11分钟。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "马拉松最好成绩",
+      "tail": "11分钟",
+      "head_mention": "图灵",
+      "tail_mention": "11分钟",
+      "trigger": "成绩",
+      "rule": "score_time",
+      "evidence_sentence": "图灵还是一名优秀长跑运动员，马拉松个人最好成绩为2小时46分03秒（手动计时，1947年），比1948年奥运会马拉松金牌成绩慢11分钟。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "马拉松最好成绩",
+      "tail": "1948年",
+      "head_mention": "图灵",
+      "tail_mention": "1948年",
+      "trigger": "马拉松",
+      "rule": "score_time",
+      "evidence_sentence": "图灵还是一名优秀长跑运动员，马拉松个人最好成绩为2小时46分03秒（手动计时，1947年），比1948年奥运会马拉松金牌成绩慢11分钟。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "又名",
+      "tail": "阿兰·图灵",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "阿兰·图灵",
+      "trigger": "又名",
+      "rule": "alias_from_intro_1",
+      "evidence_sentence": "艾伦·麦席森·图灵（英语：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻译成涂林或者杜林），1912年6月23日出生于英国伦敦麦达维尔，1954年6月7日逝世于英国柴郡威姆斯洛，享年41岁。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "又名",
+      "tail": "涂林",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "涂林",
+      "trigger": "又名",
+      "rule": "alias_from_intro_2",
+      "evidence_sentence": "艾伦·麦席森·图灵（英语：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻译成涂林或者杜林），1912年6月23日出生于英国伦敦麦达维尔，1954年6月7日逝世于英国柴郡威姆斯洛，享年41岁。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "又名",
+      "tail": "杜林",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "杜林",
+      "trigger": "又名",
+      "rule": "alias_from_intro_2",
+      "evidence_sentence": "艾伦·麦席森·图灵（英语：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻译成涂林或者杜林），1912年6月23日出生于英国伦敦麦达维尔，1954年6月7日逝世于英国柴郡威姆斯洛，享年41岁。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "享年",
+      "tail": "41岁",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "41岁",
+      "trigger": "享年",
+      "rule": "age_at_death",
+      "evidence_sentence": "艾伦·麦席森·图灵（英语：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻译成涂林或者杜林），1912年6月23日出生于英国伦敦麦达维尔，1954年6月7日逝世于英国柴郡威姆斯洛，享年41岁。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "国籍",
+      "tail": "英国",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "英国",
+      "trigger": "国籍",
+      "rule": "nationality_main",
+      "evidence_sentence": "国籍英国，居住地为英国柴郡威姆斯洛。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "居住地",
+      "tail": "柴郡威姆斯洛",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "柴郡威姆斯洛",
+      "trigger": "居住地",
+      "rule": "residence_main",
+      "evidence_sentence": "国籍英国，居住地为英国柴郡威姆斯洛。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "骨灰撒在",
+      "tail": "沃金火葬场",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "沃金火葬场",
+      "trigger": "骨灰撒在",
+      "rule": "ashes_place",
+      "evidence_sentence": "骨灰撒在沃金火葬场附近。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "职业",
+      "tail": "计算机科学家",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "计算机科学家",
+      "trigger": "职业",
+      "rule": "occupation_main",
+      "evidence_sentence": "图灵是英国计算机科学家、数学家、逻辑学家、密码分析学家和理论生物学家，被誉为“计算机科学与人工智能之父”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "职业",
+      "tail": "数学家",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "数学家",
+      "trigger": "职业",
+      "rule": "occupation_main",
+      "evidence_sentence": "图灵是英国计算机科学家、数学家、逻辑学家、密码分析学家和理论生物学家，被誉为“计算机科学与人工智能之父”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "职业",
+      "tail": "逻辑学家",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "逻辑学家",
+      "trigger": "职业",
+      "rule": "occupation_main",
+      "evidence_sentence": "图灵是英国计算机科学家、数学家、逻辑学家、密码分析学家和理论生物学家，被誉为“计算机科学与人工智能之父”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "职业",
+      "tail": "密码分析学家",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "密码分析学家",
+      "trigger": "职业",
+      "rule": "occupation_main",
+      "evidence_sentence": "图灵是英国计算机科学家、数学家、逻辑学家、密码分析学家和理论生物学家，被誉为“计算机科学与人工智能之父”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "职业",
+      "tail": "理论生物学家",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "理论生物学家",
+      "trigger": "职业",
+      "rule": "occupation_main",
+      "evidence_sentence": "图灵是英国计算机科学家、数学家、逻辑学家、密码分析学家和理论生物学家，被誉为“计算机科学与人工智能之父”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "荣誉称号",
+      "tail": "计算机科学与人工智能之父",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "计算机科学与人工智能之父",
+      "trigger": "荣誉称号",
+      "rule": "honor_title_main",
+      "evidence_sentence": "图灵是英国计算机科学家、数学家、逻辑学家、密码分析学家和理论生物学家，被誉为“计算机科学与人工智能之父”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "性取向",
+      "tail": "同性恋",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "同性恋",
+      "trigger": "性取向",
+      "rule": "sexual_orientation",
+      "evidence_sentence": "图灵是男同性恋者，患有花粉过敏症。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "运动项目",
+      "tail": "长跑",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "长跑",
+      "trigger": "运动项目",
+      "rule": "sport_type",
+      "evidence_sentence": "图灵还是一名优秀长跑运动员，马拉松个人最好成绩为2小时46分03秒（手动计时，1947年），比1948年奥运会马拉松金牌成绩慢11分钟。"
+    },
+    {
+      "head": "2小时46分03秒",
+      "relation": "计时方式",
+      "tail": "手动计时",
+      "head_mention": "2小时46分03秒",
+      "tail_mention": "手动计时",
+      "trigger": "计时方式",
+      "rule": "score_mode_and_year",
+      "evidence_sentence": "图灵还是一名优秀长跑运动员，马拉松个人最好成绩为2小时46分03秒（手动计时，1947年），比1948年奥运会马拉松金牌成绩慢11分钟。"
+    },
+    {
+      "head": "2小时46分03秒",
+      "relation": "年份",
+      "tail": "1947年",
+      "head_mention": "2小时46分03秒",
+      "tail_mention": "1947年",
+      "trigger": "计时方式",
+      "rule": "score_mode_and_year",
+      "evidence_sentence": "图灵还是一名优秀长跑运动员，马拉松个人最好成绩为2小时46分03秒（手动计时，1947年），比1948年奥运会马拉松金牌成绩慢11分钟。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "工作机构",
+      "tail": "英国国家物理实验室",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "英国国家物理实验室",
+      "trigger": "工作机构",
+      "rule": "main_work_org_npl",
+      "evidence_sentence": "1945年至1948年，图灵在英国国家物理实验室负责自动计算引擎（ACE）研究。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "工作机构",
+      "tail": "曼彻斯特大学计算机实验室",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "曼彻斯特大学计算机实验室",
+      "trigger": "工作机构",
+      "rule": "main_work_org_mu",
+      "evidence_sentence": "1949年任曼彻斯特大学计算机实验室副主任，负责曼彻斯特一号计算机软件工作。"
+    },
+    {
+      "head": "《概率在密码学中的应用",
+      "relation": "解密年份",
+      "tail": "2012年",
+      "head_mention": "《概率在密码学中的应用",
+      "tail_mention": "2012年",
+      "trigger": "解密年份",
+      "rule": "work_decrypt_year_1",
+      "evidence_sentence": "图灵运用统计技术优化密码破译试验过程，撰写论文《概率在密码学中的应用》和《重复统计论文》，直至2012年才解密公开。"
+    },
+    {
+      "head": "《重复统计论文",
+      "relation": "解密年份",
+      "tail": "2012年",
+      "head_mention": "《重复统计论文",
+      "tail_mention": "2012年",
+      "trigger": "解密年份",
+      "rule": "work_decrypt_year_2",
+      "evidence_sentence": "图灵运用统计技术优化密码破译试验过程，撰写论文《概率在密码学中的应用》和《重复统计论文》，直至2012年才解密公开。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "参与战役",
+      "tail": "大西洋战役",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "大西洋战役",
+      "trigger": "参与战役",
+      "rule": "participate_battle_atlantic",
+      "evidence_sentence": "其所在“Hut 8”小组负责德国海军密码分析，成功破译恩尼格玛密码系统，对盟军大西洋战役等关键交战胜利起到重要作用。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "隶属机构",
+      "tail": "布莱切利庄园 Hut 8 小组",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "布莱切利庄园 Hut 8 小组",
+      "trigger": "隶属机构",
+      "rule": "affiliate_hut8",
+      "evidence_sentence": "其所在“Hut 8”小组负责德国海军密码分析，成功破译恩尼格玛密码系统，对盟军大西洋战役等关键交战胜利起到重要作用。"
+    },
+    {
+      "head": "布莱切利庄园 Hut 8 小组",
+      "relation": "负责对象",
+      "tail": "德国海军",
+      "head_mention": "布莱切利庄园 Hut 8 小组",
+      "tail_mention": "德国海军",
+      "trigger": "负责对象",
+      "rule": "hut8_target",
+      "evidence_sentence": "其所在“Hut 8”小组负责德国海军密码分析，成功破译恩尼格玛密码系统，对盟军大西洋战役等关键交战胜利起到重要作用。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "受雇于",
+      "tail": "英国皇家海军",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "英国皇家海军",
+      "trigger": "受雇于",
+      "rule": "employ_royal_navy",
+      "evidence_sentence": "1939年图灵被英国皇家海军招募，在军情六处监督下从事对德密码破译。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "受监督于",
+      "tail": "军情六处",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "军情六处",
+      "trigger": "受监督于",
+      "rule": "supervised_by_mi6",
+      "evidence_sentence": "1939年图灵被英国皇家海军招募，在军情六处监督下从事对德密码破译。"
+    },
+    {
+      "head": "波兰密码局",
+      "relation": "提供情报",
+      "tail": "恩尼格玛密码机",
+      "head_mention": "波兰密码局",
+      "tail_mention": "恩尼格玛密码机",
+      "trigger": "提供情报",
+      "rule": "poland_intel",
+      "evidence_sentence": "1939年7月波兰密码局向英美提供恩尼格玛情报后，图灵与诺克斯开发更广泛的破解方法，并设计改进版机电破译机器“炸弹”。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "编写程序",
+      "tail": "图灵国际象棋程序",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "图灵国际象棋程序",
+      "trigger": "编写程序",
+      "rule": "main_write_chess_program",
+      "evidence_sentence": "1952年编写国际象棋程序，但因缺乏足够运算能力计算机，亲自模拟计算机走棋，与同事对弈落败。"
+    },
+    {
+      "head": "洛斯阿拉莫斯国家实验室",
+      "relation": "开发",
+      "tail": "洛斯阿拉莫斯象棋",
+      "head_mention": "洛斯阿拉莫斯国家实验室",
+      "tail_mention": "洛斯阿拉莫斯象棋",
+      "trigger": "开发",
+      "rule": "losalamos_develop",
+      "evidence_sentence": "后来洛斯阿拉莫斯国家实验室基于其理论在ENIAC上实现首个电脑国际象棋程序。"
+    },
+    {
+      "head": "洛斯阿拉莫斯象棋",
+      "relation": "运行平台",
+      "tail": "ENIAC",
+      "head_mention": "洛斯阿拉莫斯象棋",
+      "tail_mention": "ENIAC",
+      "trigger": "运行平台",
+      "rule": "program_platform",
+      "evidence_sentence": "后来洛斯阿拉莫斯国家实验室基于其理论在ENIAC上实现首个电脑国际象棋程序。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "被控罪名",
+      "tail": "明显的猥亵和性骚扰行为",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "明显的猥亵和性骚扰行为",
+      "trigger": "被控罪名",
+      "rule": "charged_crime",
+      "evidence_sentence": "1952年因同性伴侣协同一名同谋入室行窃事件，被英国警方调查并控以“明显的猥亵和性骚扰行为”罪。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "刑罚",
+      "tail": "化学阉割",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "化学阉割",
+      "trigger": "刑罚",
+      "rule": "punishment",
+      "evidence_sentence": "图灵未作申辩，被定罪后面对监禁或化学阉割的选择，最终接受为期一年的雌激素注射。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "死因争议",
+      "tail": "自杀",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "自杀",
+      "trigger": "死因争议",
+      "rule": "death_dispute_suicide",
+      "evidence_sentence": "官方认定为自杀，但其母亲坚称系实验室化学品意外沾染所致。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "死因争议",
+      "tail": "意外",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "意外",
+      "trigger": "死因争议",
+      "rule": "death_dispute_accident",
+      "evidence_sentence": "官方认定为自杀，但其母亲坚称系实验室化学品意外沾染所致。"
+    },
+    {
+      "head": "戈登·布朗",
+      "relation": "代表",
+      "tail": "英国政府",
+      "head_mention": "戈登·布朗",
+      "tail_mention": "英国政府",
+      "trigger": "代表",
+      "rule": "gordon_represent",
+      "evidence_sentence": "2009年9月10日，英国首相戈登·布朗代表政府就当年对图灵因同性恋定罪迫害导致其自杀一事正式公开道歉。"
+    },
+    {
+      "head": "戈登·布朗",
+      "relation": "道歉对象",
+      "tail": "艾伦·图灵",
+      "head_mention": "戈登·布朗",
+      "tail_mention": "艾伦·图灵",
+      "trigger": "道歉对象",
+      "rule": "gordon_apology_to",
+      "evidence_sentence": "2009年9月10日，英国首相戈登·布朗代表政府就当年对图灵因同性恋定罪迫害导致其自杀一事正式公开道歉。"
+    },
+    {
+      "head": "伊丽莎白二世",
+      "relation": "颁布",
+      "tail": "赦免令",
+      "head_mention": "伊丽莎白二世",
+      "tail_mention": "赦免令",
+      "trigger": "颁布",
+      "rule": "queen_issue_pardon",
+      "evidence_sentence": "2013年12月24日，英国女王伊丽莎白二世颁布赦免令，赦免图灵1952年定罪。"
+    },
+    {
+      "head": "《艾伦·图灵法案",
+      "relation": "赦免人数",
+      "tail": "约49,000名",
+      "head_mention": "《艾伦·图灵法案",
+      "tail_mention": "约49,000名",
+      "trigger": "赦免人数",
+      "rule": "law_pardon_count",
+      "evidence_sentence": "2017年1月31日，《艾伦·图灵法案》生效，约49,000名因同性恋被定罪者获得赦免。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "获得荣誉",
+      "tail": "大英帝国官佐勋章",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "大英帝国官佐勋章",
+      "trigger": "获得荣誉",
+      "rule": "honor_obe",
+      "evidence_sentence": "曾获OBE勋章，当选英国皇家学会院士（FRS）。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "获得荣誉",
+      "tail": "英国皇家学会院士",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "英国皇家学会院士",
+      "trigger": "获得荣誉",
+      "rule": "honor_frs",
+      "evidence_sentence": "曾获OBE勋章，当选英国皇家学会院士（FRS）。"
+    },
+    {
+      "head": "艾伦·图灵",
+      "relation": "博士学生",
+      "tail": "罗宾·甘迪",
+      "head_mention": "艾伦·图灵",
+      "tail_mention": "罗宾·甘迪",
+      "trigger": "博士学生",
+      "rule": "phd_student",
+      "evidence_sentence": "博士导师为阿隆佐·邱奇，博士生为罗宾·甘迪。"
+    }
+  ]
+}

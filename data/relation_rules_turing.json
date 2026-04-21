@@ -1,0 +1,940 @@
+{
+  "settings": {
+    "main_entity": "艾伦·图灵 (Alan Turing)",
+    "main_aliases": [
+      "图灵",
+      "艾伦·图灵",
+      "Alan Turing"
+    ],
+    "trigger_epochs": 3,
+    "display_name_map": {
+      "艾伦·图灵 (Alan Turing)": "艾伦·图灵",
+      "男同性恋者": "同性恋",
+      "恩尼格玛情报": "恩尼格玛密码机",
+      "Hut 8": "布莱切利庄园 Hut 8 小组",
+      "政府": "英国政府",
+      "图灵": "艾伦·图灵",
+      "OBE": "大英帝国官佐勋章",
+      "英国柴郡威姆斯洛": "柴郡威姆斯洛",
+      "沃金火葬场附近": "沃金火葬场",
+      "国际象棋程序": "图灵国际象棋程序",
+      "首个电脑国际象棋程序": "洛斯阿拉莫斯象棋",
+      "杜林）": "杜林"
+    },
+    "regex_rules": [
+      {
+        "name": "alias_from_intro_1",
+        "relation": "又名",
+        "pattern": "又译(?P<tail>[^，。]+)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "alias_from_intro_2",
+        "relation": "又名",
+        "pattern": "翻译成(?P<tail>[^，。]+)",
+        "tail_group": "tail",
+        "split_pattern": "或者|或|、"
+      },
+      {
+        "name": "age_at_death",
+        "relation": "享年",
+        "pattern": "享年(?P<tail>\\d+岁)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "nationality_main",
+        "relation": "国籍",
+        "pattern": "国籍(?P<tail>[^，。]+)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "residence_main",
+        "relation": "居住地",
+        "pattern": "居住地为(?P<tail>[^，。]+)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "ashes_place",
+        "relation": "骨灰撒在",
+        "pattern": "骨灰撒在(?P<tail>[^，。]+)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "occupation_main",
+        "relation": "职业",
+        "pattern": "是英国(?P<tail>计算机科学家、数学家、逻辑学家、密码分析学家和理论生物学家)",
+        "tail_group": "tail",
+        "split_pattern": "、|和"
+      },
+      {
+        "name": "honor_title_main",
+        "relation": "荣誉称号",
+        "pattern": "被誉为[“\"](?P<tail>[^”\"]+)[”\"]",
+        "tail_group": "tail"
+      },
+      {
+        "name": "sexual_orientation",
+        "relation": "性取向",
+        "pattern": "图灵是(?P<tail>男同性恋者)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "sport_type",
+        "relation": "运动项目",
+        "pattern": "优[秀绣]?(?P<tail>长跑)运动员",
+        "tail_group": "tail"
+      },
+      {
+        "name": "marathon_best",
+        "relation": "马拉松最好成绩",
+        "pattern": "最好成绩为(?P<tail>\\d+小时\\d+分\\d+秒)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "score_mode_and_year",
+        "relation": "计时方式",
+        "pattern": "最好成绩为(?P<head>\\d+小时\\d+分\\d+秒)（(?P<mode>手动计时)，(?P<year>\\d{4}年)）",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_groups": [
+          "mode|计时方式",
+          "year|年份"
+        ]
+      },
+      {
+        "name": "main_work_org_npl",
+        "relation": "工作机构",
+        "pattern": "图灵在(?P<tail>英国国家物理实验室)负责",
+        "tail_group": "tail"
+      },
+      {
+        "name": "main_work_org_mu",
+        "relation": "工作机构",
+        "pattern": "任(?P<tail>曼彻斯特大学计算机实验室)副主任",
+        "tail_group": "tail"
+      },
+      {
+        "name": "main_work_org_gc",
+        "relation": "工作机构",
+        "pattern": "图灵在(?P<tail>英国政府密码和密码学校)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "main_project_ace",
+        "relation": "负责项目",
+        "pattern": "负责(?P<tail>自动计算引擎)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "work_decrypt_year_1",
+        "relation": "解密年份",
+        "pattern": "(?P<head>《概率在密码学中的应用》)和《重复统计论文》，直至(?P<tail>\\d{4}年)才解密公开",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_group": "tail"
+      },
+      {
+        "name": "work_decrypt_year_2",
+        "relation": "解密年份",
+        "pattern": "《概率在密码学中的应用》和(?P<head>《重复统计论文》)，直至(?P<tail>\\d{4}年)才解密公开",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_group": "tail"
+      },
+      {
+        "name": "participate_battle_atlantic",
+        "relation": "参与战役",
+        "pattern": "(?P<tail>大西洋战役)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "affiliate_hut8",
+        "relation": "隶属机构",
+        "pattern": "所在“(?P<tail>Hut 8)”小组",
+        "tail_group": "tail"
+      },
+      {
+        "name": "hut8_target",
+        "relation": "负责对象",
+        "pattern": "(?P<head>Hut 8)”小组负责(?P<tail>德国海军)密码分析",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_group": "tail"
+      },
+      {
+        "name": "employ_royal_navy",
+        "relation": "受雇于",
+        "pattern": "被(?P<tail>英国皇家海军)招募",
+        "tail_group": "tail"
+      },
+      {
+        "name": "supervised_by_mi6",
+        "relation": "受监督于",
+        "pattern": "在(?P<tail>军情六处)监督下",
+        "tail_group": "tail"
+      },
+      {
+        "name": "poland_intel",
+        "relation": "提供情报",
+        "pattern": "(?P<head>波兰密码局)向英美提供(?P<tail>恩尼格玛情报)",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_group": "tail"
+      },
+      {
+        "name": "main_write_chess_program",
+        "relation": "编写程序",
+        "pattern": "编写(?P<tail>国际象棋程序)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "losalamos_develop",
+        "relation": "开发",
+        "pattern": "(?P<head>洛斯阿拉莫斯国家实验室)基于其理论在ENIAC上实现(?P<tail>首个电脑国际象棋程序)",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_group": "tail"
+      },
+      {
+        "name": "program_platform",
+        "relation": "运行平台",
+        "pattern": "在(?P<tail>ENIAC)上实现(?P<head>首个电脑国际象棋程序)",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_group": "tail"
+      },
+      {
+        "name": "charged_crime",
+        "relation": "被控罪名",
+        "pattern": "控以“(?P<tail>[^”]+)”罪",
+        "tail_group": "tail"
+      },
+      {
+        "name": "punishment",
+        "relation": "刑罚",
+        "pattern": "监禁或(?P<tail>化学阉割)的选择",
+        "tail_group": "tail"
+      },
+      {
+        "name": "death_dispute_suicide",
+        "relation": "死因争议",
+        "pattern": "官方认定为(?P<tail>自杀)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "death_dispute_accident",
+        "relation": "死因争议",
+        "pattern": "(?P<tail>意外)沾染所致",
+        "tail_group": "tail",
+        "head": {
+          "from": "main_entity"
+        }
+      },
+      {
+        "name": "gordon_represent",
+        "relation": "代表",
+        "pattern": "(?P<head>戈登·布朗)代表(?P<tail>政府)",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_group": "tail"
+      },
+      {
+        "name": "gordon_apology_to",
+        "relation": "道歉对象",
+        "pattern": "(?P<head>戈登·布朗).+?对(?P<tail>图灵).+?道歉",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_group": "tail"
+      },
+      {
+        "name": "queen_issue_pardon",
+        "relation": "颁布",
+        "pattern": "(?P<head>伊丽莎白二世)颁布(?P<tail>赦免令)",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_group": "tail"
+      },
+      {
+        "name": "law_pardon_count",
+        "relation": "赦免人数",
+        "pattern": "(?P<head>《艾伦·图灵法案》)生效，(?P<tail>约?\\d{1,3}(,\\d{3})*名)",
+        "head": {
+          "from": "group",
+          "group": "head"
+        },
+        "tail_group": "tail"
+      },
+      {
+        "name": "honor_obe",
+        "relation": "获得荣誉",
+        "pattern": "曾获(?P<tail>OBE)勋章",
+        "tail_group": "tail"
+      },
+      {
+        "name": "honor_frs",
+        "relation": "获得荣誉",
+        "pattern": "当选(?P<tail>英国皇家学会院士)",
+        "tail_group": "tail"
+      },
+      {
+        "name": "phd_student",
+        "relation": "博士学生",
+        "pattern": "博士生为(?P<tail>罗宾·甘迪)",
+        "tail_group": "tail"
+      }
+    ]
+  },
+  "rules": [
+    {
+      "name": "alias_main",
+      "relation": "又名",
+      "triggers": [
+        "又译",
+        "翻译",
+        "又名"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 5,
+      "head_before_tail": true
+    },
+    {
+      "name": "birth_date_main",
+      "relation": "出生日期",
+      "triggers": [
+        "出生"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Date",
+          "Time"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true,
+      "trigger_between": false,
+      "tail_side": "before"
+    },
+    {
+      "name": "birth_place_main",
+      "relation": "出生地点",
+      "triggers": [
+        "出生"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Location",
+          "Country"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true,
+      "tail_side": "after"
+    },
+    {
+      "name": "death_date_main",
+      "relation": "逝世日期",
+      "triggers": [
+        "逝世",
+        "去世"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Date",
+          "Time"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true,
+      "trigger_between": false,
+      "tail_side": "before"
+    },
+    {
+      "name": "death_place_main",
+      "relation": "逝世地点",
+      "triggers": [
+        "逝世",
+        "去世"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Location",
+          "Country"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true,
+      "tail_side": "after"
+    },
+    {
+      "name": "nationality",
+      "relation": "国籍",
+      "triggers": [
+        "国籍"
+      ],
+      "head": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Country"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1
+    },
+    {
+      "name": "residence",
+      "relation": "居住地",
+      "triggers": [
+        "居住地"
+      ],
+      "head": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Location",
+          "Country"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1
+    },
+    {
+      "name": "father",
+      "relation": "父亲",
+      "triggers": [
+        "父亲"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true
+    },
+    {
+      "name": "mother",
+      "relation": "母亲",
+      "triggers": [
+        "母亲"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true
+    },
+    {
+      "name": "education_org",
+      "relation": "入读学校",
+      "triggers": [
+        "入读",
+        "考入",
+        "进入"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Organization"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 3,
+      "head_before_tail": true
+    },
+    {
+      "name": "advisor",
+      "relation": "博士导师",
+      "triggers": [
+        "导师"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true
+    },
+    {
+      "name": "work_org",
+      "relation": "工作机构",
+      "triggers": [
+        "任职",
+        "兼职",
+        "工作",
+        "受雇"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Organization",
+          "Location/Organization"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 4,
+      "head_before_tail": true
+    },
+    {
+      "name": "colleague",
+      "relation": "同事",
+      "triggers": [
+        "合作",
+        "同事"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 2,
+      "head_before_tail": true
+    },
+    {
+      "name": "object_analysis",
+      "relation": "分析对象",
+      "triggers": [
+        "分析",
+        "破解"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Device"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 3,
+      "head_before_tail": true
+    },
+    {
+      "name": "design_device",
+      "relation": "设计",
+      "triggers": [
+        "设计",
+        "改进"
+      ],
+      "head": {
+        "canonical_in": [
+          "艾伦·图灵 (Alan Turing)"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Device"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 3,
+      "head_before_tail": true
+    },
+    {
+      "name": "write_work",
+      "relation": "发表作品",
+      "triggers": [
+        "发表",
+        "撰写",
+        "编写"
+      ],
+      "head": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Work"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 4,
+      "head_before_tail": true
+    },
+    {
+      "name": "work_concept",
+      "relation": "提出",
+      "triggers": [
+        "提出",
+        "引入"
+      ],
+      "head": {
+        "type_in": [
+          "Work",
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Concept",
+          "Device"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 4,
+      "head_before_tail": true
+    },
+    {
+      "name": "work_apply",
+      "relation": "应用",
+      "triggers": [
+        "应用",
+        "解释"
+      ],
+      "head": {
+        "type_in": [
+          "Work",
+          "Concept"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Concept"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 3,
+      "head_before_tail": true
+    },
+    {
+      "name": "honor",
+      "relation": "获得荣誉",
+      "triggers": [
+        "获得",
+        "当选",
+        "勋章",
+        "院士",
+        "OBE",
+        "FRS"
+      ],
+      "head": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Award",
+          "Title",
+          "Degree"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 3,
+      "head_before_tail": true
+    },
+    {
+      "name": "health",
+      "relation": "患疾病",
+      "triggers": [
+        "患有",
+        "患"
+      ],
+      "head": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Disease"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true
+    },
+    {
+      "name": "death_cause",
+      "relation": "死因",
+      "triggers": [
+        "因",
+        "死亡",
+        "氰化物"
+      ],
+      "head": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Chemical",
+          "Event"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 2,
+      "head_before_tail": true
+    },
+    {
+      "name": "law_effective",
+      "relation": "生效日期",
+      "triggers": [
+        "生效"
+      ],
+      "head": {
+        "type_in": [
+          "Law",
+          "Law/Event"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Date",
+          "Time"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true
+    },
+    {
+      "name": "law_pardon",
+      "relation": "赦免对象",
+      "triggers": [
+        "赦免",
+        "颁布"
+      ],
+      "head": {
+        "type_in": [
+          "Law",
+          "Law/Event",
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 2,
+      "head_before_tail": true
+    },
+    {
+      "name": "project_responsibility",
+      "relation": "负责项目",
+      "triggers": [
+        "负责"
+      ],
+      "head": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Device",
+          "Work"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 2,
+      "head_before_tail": true
+    },
+    {
+      "name": "participate_development",
+      "relation": "参与开发",
+      "triggers": [
+        "开发"
+      ],
+      "head": {
+        "type_in": [
+          "Person",
+          "Organization"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Device",
+          "Work"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 3,
+      "head_before_tail": true
+    },
+    {
+      "name": "running_platform",
+      "relation": "运行平台",
+      "triggers": [
+        "运行"
+      ],
+      "head": {
+        "type_in": [
+          "Work",
+          "Device"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Device"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true
+    },
+    {
+      "name": "guidance",
+      "relation": "指导学生",
+      "triggers": [
+        "指导"
+      ],
+      "head": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "pairing": "all",
+      "max_pairs": 2,
+      "head_before_tail": true
+    },
+    {
+      "name": "combat_participation",
+      "relation": "参与战役",
+      "triggers": [
+        "战役"
+      ],
+      "head": {
+        "type_in": [
+          "Person",
+          "Organization"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Event"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true
+    },
+    {
+      "name": "score_time",
+      "relation": "马拉松最好成绩",
+      "triggers": [
+        "成绩",
+        "马拉松"
+      ],
+      "head": {
+        "type_in": [
+          "Person"
+        ]
+      },
+      "tail": {
+        "type_in": [
+          "Time"
+        ]
+      },
+      "pairing": "nearest",
+      "max_pairs": 1,
+      "head_before_tail": true
+    }
+  ]
+}
